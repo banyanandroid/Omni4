@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/omni_bg"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="40dp"
+                android:src="@drawable/center_2" />
+
+            <ImageView
+                android:id="@+id/center_bg"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/omni" />
+
+            <TextView
+                android:id="@+id/strength_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/omni_bg"
+                android:layout_alignStart="@+id/omni_bg"
+                android:layout_below="@+id/omni_bg"
+                android:gravity="center"
+                android:text="@string/strength"
+                android:textColor="@color/navy"
+                android:textSize="14sp"
+                android:layout_alignRight="@+id/omni_bg"
+                android:layout_alignEnd="@+id/omni_bg" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15dip"
+                android:layout_above="@+id/on"
+                android:background="@color/red"
+                android:id="@+id/view5" />
+
+            <View
+                android:id="@+id/on"
+                android:layout_width="fill_parent"
+                android:layout_height="27dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="3dp"
+                android:background="@color/yellow" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="460dp"
+                android:layout_height="150dp"
+                android:scaleType="matrix"
+                android:src="@drawable/book_15"
+                android:layout_above="@+id/textView5"
+                android:layout_alignRight="@+id/textView5"
+                android:layout_alignEnd="@+id/textView5"
+                android:layout_marginRight="36dp"
+                android:layout_marginEnd="36dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A novel option in IBS management"
+                android:textColor="@color/red"
+                android:textSize="28sp"
+                android:layout_marginBottom="-10dp"
+                android:textStyle="bold"
+                android:layout_above="@+id/strength_bg"
+                android:layout_centerHorizontal="true" />
+
+            <RelativeLayout
+                android:id="@+id/r_1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_alignLeft="@+id/center_bg"
+                android:layout_alignStart="@+id/center_bg"
+                android:layout_below="@+id/textView5"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/bullet_1"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/bullet" />
+
+                <TextView
+                    android:id="@+id/pt_1_frag11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/bullet_1"
+                    android:gravity="center|left"
+                    android:text="Controls release of cytokines response for chronic inflammation, including NF-kB, IL-6."
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/r_2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignLeft="@+id/r_1"
+                android:layout_alignStart="@+id/r_1"
+                android:layout_below="@+id/r_1"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/bullet" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/imageView7"
+                    android:text="Increases bile flow and prevent fermentation process of undigested fats in the intestine, which is responsible for the ‘typical’ symptoms in IBS."
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/r_3"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_alignLeft="@+id/r_2"
+                android:layout_alignStart="@+id/r_2"
+                android:layout_below="@+id/r_2"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/bullet" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/imageView8"
+                    android:gravity="center|left"
+                    android:text="Regulates neurotransmitters, BDNF (Brain derived neutrophilic factors) and CREB (cAMP response elements-binding binding protein) signaling both in the brain and peripheral intestinal systems."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/r_4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/r_3"
+                android:layout_alignLeft="@+id/r_3"
+                android:layout_alignRight="@+id/r_3"
+                android:layout_alignStart="@+id/r_3"
+                android:layout_below="@+id/r_3"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/bullet" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/imageView9"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/imageView9"
+                    android:gravity="center|left"
+                    android:text="Relieves stress and helps prevent the recurrence"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/prev"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/r_4"
+                android:layout_alignStart="@+id/r_4"
+                android:layout_below="@+id/r_4"
+                android:src="@drawable/prev" />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/next"
+                android:layout_marginRight="20dp"
+                android:layout_above="@+id/view5"
+                android:layout_alignRight="@+id/r_4"
+                android:layout_alignEnd="@+id/r_4" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="15"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/pt_last_frag11"
+            android:layout_alignRight="@+id/pt_last_frag11"
+            android:layout_alignTop="@+id/pt_last_frag11" />
+
+    </RelativeLayout>
+</FrameLayout>

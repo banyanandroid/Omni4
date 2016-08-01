@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Omni</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--
+App Names
+-->
+    <string name="txt_1">Responsible for Cancer Occurrence and Recurrence</string>
+    <string name="natural">The Natural Bioprotectant</string>
+    <string name="that">that controls Chronic inflammation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="strength">Regulates Chronic Inflammation</string>
+    <string name="novel">A novel option for Cancer maintenance/ prevention</string>
+
+    <string name="one5">Regulates C.I. by inhibiting &amp; down regulating NF-kB</string>
+    <string name="two5">Induce cell cycle arrest and apoptosis</string>
+    <string name="three5">Modulate molecular signaling pathways</string>
+    <string name="four5">Activates tumor suppressor genes</string>
+    <string name="five5">Target circulating stem cells to prevent relapse</string>
+
+    <string name="regulates">Regulates C.I. by inhibiting &amp; down regulating NF-kB</string>
+    <string name="title_activity_cur_">Cur_Activity</string>
+    <string name="title_activity_psych_activity">Psych_activity</string>
+    <string name="title_activity_neuro_">Neuro_Activity</string>
+    <string name="title_activity_eye_">Eye_Activity</string>
+    <string name="title_activity_cpancr_">Cpancr_Activity</string>
+    <string name="title_activity_cts_">Cts_Activity</string>
+    <string name="title_activity_diabetes">Diabetes</string>
+    <string name="title_activity_diabetes_">Diabetes_Activity</string>
+    <string name="title_activity_ultr_">Ultr_Activity</string>
+
+    <string name="one4">Increases the absorption of poorly absorbable substances</string>
+    <string name="two4">Reduce particle size at the absorption point</string>
+    <string name="three4">Convert erratic absorption to smooth one</string>
+    <string name="four4">Overcomes degeneration by first pass metabolism</string>
+    <string name="five4">Minimizes Glucuronization/Sulfation</string>
+
+    <string name="frag13">The mysterious link between\n<b>IBS</b> and <b>IBD</b> is now identified</string>
+
+</resources>

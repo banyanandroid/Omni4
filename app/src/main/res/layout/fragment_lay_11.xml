@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <TextView
+            android:id="@+id/head_frag11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="82dp"
+            android:layout_toEndOf="@+id/textno"
+            android:layout_toRightOf="@+id/textno"
+            android:gravity="left"
+            android:text="@string/novel"
+            android:textColor="@color/red"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/r_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head_frag11"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/bullet_1"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_1_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/bullet_1"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_1"
+                android:gravity="center"
+                android:text="Post CT, as an adjuvant"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r_1"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_2"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_2_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/bullet_2"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_2"
+                android:gravity="center"
+                android:text="Post RT"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r_2"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_3"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_3_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/bullet_3"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_3"
+                android:gravity="center"
+                android:text="Post Surgical"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r_3"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_4"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_4_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/bullet_4"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_4"
+                android:gravity="center"
+                android:text="*For high risk patient - from a long term prevention"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/r_4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@+id/imageView3"
+            android:layout_alignEnd="@+id/imageView3">
+
+            <ImageView
+                android:id="@+id/bullet_5"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_5_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/bullet_5"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_5"
+                android:gravity="center"
+                android:text="*Palliative care"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/pt_last_frag11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Dosage : 2 Tablets daily or as directed by Physician."
+            android:textColor="#ff3300"
+            android:textSize="12sp"
+            android:layout_alignBottom="@+id/frag11_bottel_img"
+            android:layout_marginBottom="33dp"
+            android:layout_alignRight="@+id/r_4"
+            android:layout_alignEnd="@+id/r_4" />
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="13"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/pt_last_frag11"
+            android:layout_alignRight="@+id/pt_last_frag11"
+            android:layout_alignTop="@+id/pt_last_frag11" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag11_bottel_img"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/bottel_img"
+            android:layout_above="@+id/textno"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/r_2" />
+
+    </RelativeLayout>
+</FrameLayout>

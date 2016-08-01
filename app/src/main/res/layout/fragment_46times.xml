@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/times"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <ImageView
+            android:layout_width="600dp"
+            android:layout_height="70dp"
+            android:id="@+id/times_head"
+            android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/times_img"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/times_graph_img"
+            android:layout_below="@+id/times_head"
+            android:layout_alignLeft="@+id/times_head"
+            android:layout_alignStart="@+id/times_head"
+            android:src="@drawable/times_graph_img"
+            android:layout_alignRight="@+id/times_head"
+            android:layout_alignEnd="@+id/times_head" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="07"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView51"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView38"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="65dp"
+            android:src="@drawable/ultra_logo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</FrameLayout>

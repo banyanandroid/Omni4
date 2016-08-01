@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <TextView
+            android:id="@+id/head_frag11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:gravity="center"
+            android:text="Diabetic"
+            android:textColor="@color/red"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/r_1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/head_frag11"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/bullet_1"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_1_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_1"
+                android:text="Improves vascular dysfunction"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/r_1"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_2"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_2_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/bullet_2"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_2"
+                android:text="Improved pancreatic-cell function and insulin resistance"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/r_2"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_3"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_3_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/bullet_3"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_3"
+                android:gravity="center"
+                android:text="Modulates PPAR gamma for better sugar uptake and utilization"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/r_3"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_4"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_4_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/bullet_4"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_4"
+                android:text="Improves lipid profile by increasing HDL levels and decreasing LDL cholesterol"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/r_4"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_5"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_5_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_5"
+                android:text="Treatment lowered both total serum FFA and TG through enhanced lipoprotein lipase (LPL) activity"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/r_6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/r_5"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/bullet_6"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/bullet" />
+
+            <TextView
+                android:id="@+id/pt_6_frag11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/bullet_6"
+                android:text="Prevents progression of T2D by inhibiting stress activated pathways in macrophages and other cells leading to reduced inflammation."
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="42"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r_5" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/r_1"
+            android:layout_marginLeft="62dp"
+            android:layout_marginStart="62dp"
+            android:layout_toEndOf="@+id/imageView3"
+            android:layout_toRightOf="@+id/imageView3"
+            android:text="Protects from"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/r_5"
+            android:layout_marginLeft="30dp"
+            android:layout_toEndOf="@+id/imageView3"
+            android:layout_toRightOf="@+id/imageView3"
+            android:clickable="true"
+            android:rotation="180"
+            android:src="@drawable/arw" />
+
+    </RelativeLayout>
+</FrameLayout>

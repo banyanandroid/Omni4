@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/con"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/red" />
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="0.08"
+                        android:gravity="end"
+                        android:text="02"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <ImageView
+                        android:id="@+id/left_frag2"
+                        android:layout_width="350dp"
+                        android:layout_height="60dp"
+                        android:layout_above="@+id/textno"
+                        android:layout_alignLeft="@+id/textno"
+                        android:layout_alignStart="@+id/textno"
+                        android:src="@drawable/left_2" />
+
+                    <ImageView
+                        android:id="@+id/prev"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignLeft="@+id/left_frag2"
+                        android:layout_alignStart="@+id/left_frag2"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/prev" />
+
+                    <ImageView
+                        android:id="@+id/right_frag2"
+                        android:layout_width="350dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/left_frag2"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="-20dp"
+                        android:src="@drawable/right_2" />
+
+                    <ImageView
+                        android:id="@+id/next"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignEnd="@+id/right_frag2"
+                        android:layout_alignRight="@+id/right_frag2"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/next" />
+
+                    <TextView
+                        android:id="@+id/strngth"
+                        android:layout_width="230dp"
+                        android:textStyle="bold|italic"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/right_frag2"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="26sp"
+                        android:gravity="center"
+                        android:text="Regulates Chronic Inflammation" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/video1"
+                        android:clickable="true"
+                        android:src="@android:drawable/presence_video_online"
+                        android:layout_toRightOf="@+id/prev"
+                        android:layout_toEndOf="@+id/prev"
+                        android:layout_above="@+id/right_frag2" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/video2"
+                        android:clickable="true"
+                        android:src="@android:drawable/presence_video_online"
+                        android:layout_marginLeft="97dp"
+                        android:layout_marginStart="97dp"
+                        android:layout_above="@+id/right_frag2"
+                        android:layout_toRightOf="@+id/strngth"
+                        android:layout_toEndOf="@+id/strngth" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/one_frag2"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/center_2" />
+
+        <ImageView
+            android:id="@+id/omni_frag2"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/omni" />
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="3dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/omni_frag2"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/head_frag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/view_2"
+            android:text="The Natural Bioprotectant that controls chronic inflammation with specific IBS-IBD action"
+            android:textColor="@color/red"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</FrameLayout>

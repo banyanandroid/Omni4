@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_Video">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:clickable="true"
+            android:rotation="180"
+            android:src="@drawable/arw"
+            android:layout_above="@+id/textno"
+            android:layout_alignLeft="@+id/imageView22"
+            android:layout_alignStart="@+id/imageView22" />
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/back"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/back"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="07"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reverses CT induced damage on the intestinal dysfunction"
+            android:id="@+id/textView7"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="26sp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="74dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView22"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curcumin protects IMB"
+            android:id="@+id/textView29"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView22"
+            android:layout_toRightOf="@+id/imageView22"
+            android:layout_toEndOf="@+id/imageView22" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView23"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView29"
+            android:layout_alignLeft="@+id/textView29"
+            android:layout_alignStart="@+id/textView29"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Maintains function &amp; structural integrity of IMB"
+            android:id="@+id/textView30"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView23"
+            android:layout_toRightOf="@+id/imageView23"
+            android:layout_toEndOf="@+id/imageView23" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView24"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView30"
+            android:layout_alignLeft="@+id/imageView23"
+            android:layout_alignStart="@+id/imageView23"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reverses CT-induced weight loss"
+            android:id="@+id/textView31"
+            android:layout_alignTop="@+id/imageView24"
+            android:layout_alignLeft="@+id/textView30"
+            android:layout_alignStart="@+id/textView30" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView25"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView31"
+            android:layout_alignLeft="@+id/imageView24"
+            android:layout_alignStart="@+id/imageView24"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increases of serum endotoxin"
+            android:id="@+id/textView33"
+            android:layout_alignTop="@+id/imageView25"
+            android:layout_alignLeft="@+id/textView31"
+            android:layout_alignStart="@+id/textView31" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView26"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView33"
+            android:layout_alignLeft="@+id/imageView25"
+            android:layout_alignStart="@+id/imageView25"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increases of D-lactate and DAO"
+            android:id="@+id/textView34"
+            android:layout_alignTop="@+id/imageView26"
+            android:layout_alignLeft="@+id/textView33"
+            android:layout_alignStart="@+id/textView33" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView27"
+            android:layout_below="@+id/textView34"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curcumin minimize damage to IMB"
+            android:id="@+id/textView35"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:layout_alignTop="@+id/imageView27"
+            android:layout_alignLeft="@+id/imageView26"
+            android:layout_alignStart="@+id/imageView26" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView28"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView35"
+            android:layout_alignLeft="@+id/textView35"
+            android:layout_alignStart="@+id/textView35"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reduces expression pro-apoptotic Bax &amp; stimulated anti-apoptotic bcl-2"
+            android:id="@+id/textView36"
+            android:layout_alignTop="@+id/imageView28"
+            android:layout_alignLeft="@+id/textView34"
+            android:layout_alignStart="@+id/textView34"
+            android:layout_alignRight="@+id/textView7"
+            android:layout_alignEnd="@+id/textView7" />
+
+
+    </RelativeLayout>
+</FrameLayout>

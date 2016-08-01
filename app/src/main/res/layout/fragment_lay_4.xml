@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/con"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_Video">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/frag4_head"
+            android:layout_marginLeft="189dp"
+            android:layout_marginStart="189dp"
+            android:src="@drawable/ultrasol"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag4_bull1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag4_head"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reduces particle size at the absorption point"
+            android:id="@+id/frag4_pt1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag4_bull1"
+            android:layout_toRightOf="@+id/frag4_bull1"
+            android:layout_toEndOf="@+id/frag4_bull1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag4_bull2"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/frag4_bull1"
+            android:layout_alignLeft="@+id/frag4_bull1"
+            android:layout_alignStart="@+id/frag4_bull1"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Converts erratic absorption to smooth one"
+            android:id="@+id/frag4_pt2"
+            android:layout_alignTop="@+id/frag4_bull2"
+            android:layout_alignLeft="@+id/frag4_pt1"
+            android:layout_alignStart="@+id/frag4_pt1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag4_bull3"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/frag4_bull2"
+            android:layout_alignLeft="@+id/frag4_bull2"
+            android:layout_alignStart="@+id/frag4_bull2"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Overcomes degeneration by first pass metabolism"
+            android:id="@+id/frag4_pt3"
+            android:layout_alignTop="@+id/frag4_bull3"
+            android:layout_alignLeft="@+id/frag4_pt2"
+            android:layout_alignStart="@+id/frag4_pt2" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag4_bull4"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/frag4_bull3"
+            android:layout_alignLeft="@+id/frag4_bull3"
+            android:layout_alignStart="@+id/frag4_bull3"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Minimizes Glucuronization/Sulfation"
+            android:id="@+id/frag4_pt4"
+            android:layout_alignTop="@+id/frag4_bull4"
+            android:layout_alignLeft="@+id/frag4_pt3"
+            android:layout_alignStart="@+id/frag4_pt3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag4_img"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/frag4_img"
+            android:layout_below="@+id/frag4_bull4"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView41"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="65dp"
+            android:src="@drawable/ultra_logo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</FrameLayout>

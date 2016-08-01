@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_Video">
+
+    <RelativeLayout
+        android:id="@+id/fic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A novel adjuvant option- Post CT/RT/Surgery"
+            android:id="@+id/textView20"
+            android:textSize="28sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/arrow_1"
+            android:layout_toStartOf="@+id/arrow_1" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag5_bull1"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView20"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="27dp"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Delays recurrence by inhibiting and down regulating NF-KB"
+            android:id="@+id/frag5_pt1"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignBottom="@+id/frag5_bull1"
+            android:layout_toRightOf="@+id/frag5_bull1"
+            android:layout_toEndOf="@+id/frag5_bull1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_1"
+            android:layout_marginRight="200dp"
+            android:layout_alignTop="@+id/frag5_pt1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/arw" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag5_bull2"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/frag5_bull1"
+            android:layout_alignLeft="@+id/frag5_bull1"
+            android:layout_alignStart="@+id/frag5_bull1"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Hastens recovery- post CT/RT ;"
+            android:id="@+id/frag5_pt2"
+            android:textColor="@color/black"
+            android:layout_above="@+id/imageView15"
+            android:layout_alignLeft="@+id/frag5_pt1"
+            android:layout_alignStart="@+id/frag5_pt1" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView15"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/frag5_bull2"
+            android:layout_alignLeft="@+id/frag5_pt2"
+            android:layout_alignStart="@+id/frag5_pt2"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Reverses CT induced damage on the intestinal dysfunction"
+            android:id="@+id/frag5_pt2_1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/imageView15"
+            android:layout_toRightOf="@+id/imageView15"
+            android:layout_toEndOf="@+id/imageView15" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_2"
+            android:layout_alignTop="@+id/frag5_pt2_1"
+            android:layout_alignRight="@+id/arrow_1"
+            android:layout_alignEnd="@+id/arrow_1"
+            android:src="@drawable/arw" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView17"
+            android:src="@drawable/bullet"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/frag5_pt2_1"
+            android:layout_alignLeft="@+id/imageView15"
+            android:layout_alignStart="@+id/imageView15" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Corrects cachexia, muscle wasting and cancer-related fatigue"
+            android:id="@+id/frag5_pt2_2"
+            android:textColor="@color/black"
+            android:layout_alignBottom="@+id/imageView17"
+            android:layout_alignLeft="@+id/frag5_pt2_1"
+            android:layout_alignStart="@+id/frag5_pt2_1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_2_2"
+            android:layout_alignTop="@+id/frag5_pt2_2"
+            android:layout_alignLeft="@+id/arrow_2"
+            android:layout_alignStart="@+id/arrow_2"
+            android:src="@drawable/arw" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView19"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/arrow_2_2"
+            android:layout_alignLeft="@+id/imageView17"
+            android:layout_alignStart="@+id/imageView17"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Restores normalization of mucosal lining"
+            android:id="@+id/frag5_pt2_3"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView19"
+            android:layout_alignLeft="@+id/frag5_pt2_2"
+            android:layout_alignStart="@+id/frag5_pt2_2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_2_3"
+            android:layout_alignTop="@+id/frag5_pt2_3"
+            android:layout_alignLeft="@+id/arrow_2_2"
+            android:layout_alignStart="@+id/arrow_2_2"
+            android:src="@drawable/arw" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag5_bull3"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/arrow_2_3"
+            android:layout_alignLeft="@+id/frag5_bull2"
+            android:layout_alignStart="@+id/frag5_bull2"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Induces cell cycle arrest and apoptosis"
+            android:id="@+id/frag5_pt3"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag5_bull3"
+            android:layout_alignLeft="@+id/imageView19"
+            android:layout_alignStart="@+id/imageView19" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_3"
+            android:layout_alignTop="@+id/frag5_pt3"
+            android:layout_alignLeft="@+id/arrow_2_3"
+            android:layout_alignStart="@+id/arrow_2_3"
+            android:src="@drawable/arw" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag5_bull4"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/frag5_bull3"
+            android:layout_alignLeft="@+id/frag5_bull3"
+            android:layout_alignStart="@+id/frag5_bull3"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Regulates CSC, self-renewal pathways"
+            android:id="@+id/frag5_pt4"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag5_bull4"
+            android:layout_alignLeft="@+id/frag5_pt3"
+            android:layout_alignStart="@+id/frag5_pt3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_4"
+            android:src="@drawable/arw"
+            android:layout_alignTop="@+id/frag5_pt4"
+            android:layout_alignLeft="@+id/arrow_3"
+            android:layout_alignStart="@+id/arrow_3" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag5_bull5"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/frag5_bull4"
+            android:layout_alignLeft="@+id/frag5_bull4"
+            android:layout_alignStart="@+id/frag5_bull4"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Modulates miRNA and EMT to inhibit metastasis/invasion"
+            android:id="@+id/frag5_pt5"
+            android:layout_alignTop="@+id/frag5_bull5"
+            android:layout_alignLeft="@+id/frag5_pt4"
+            android:layout_alignStart="@+id/frag5_pt4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/arrow_5"
+            android:layout_alignTop="@+id/frag5_pt5"
+            android:layout_alignLeft="@+id/arrow_4"
+            android:layout_alignStart="@+id/arrow_4"
+            android:src="@drawable/arw" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="05"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textView47"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/frag5_bull5"
+            android:layout_alignStart="@+id/frag5_bull5" />
+
+
+    </RelativeLayout>
+</FrameLayout>

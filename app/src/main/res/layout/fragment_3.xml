@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/con"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_Video">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+
+        <TextView
+            android:id="@+id/head_4_frag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/head_3_frag3"
+            android:layout_alignLeft="@+id/head_1_frag3"
+            android:layout_alignRight="@+id/head_3_frag3"
+            android:layout_alignStart="@+id/head_1_frag3"
+            android:layout_below="@+id/head_2_frag3"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="than standard curcumin tablets"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/head_1_frag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textno"
+            android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp"
+            android:layout_toEndOf="@+id/textno"
+            android:layout_toRightOf="@+id/textno"
+            android:paddingTop="3dp"
+            android:text="Delivers"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/head_2_frag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/head_1_frag3"
+            android:layout_marginLeft="11dp"
+            android:layout_toEndOf="@+id/head_1_frag3"
+            android:layout_toRightOf="@+id/head_1_frag3"
+            android:text="46 times"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/navy"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/head_3_frag3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_alignTop="@+id/head_2_frag3"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/head_2_frag3"
+            android:layout_toRightOf="@+id/head_2_frag3"
+            android:paddingBottom="2dp"
+            android:text="more curcumin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/head_4_frag3" />
+
+        <!--<TableLayout
+            android:id="@+id/table_frag3"
+            android:background="@drawable/table_bg"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/head_4_frag3"
+            android:layout_width="720dp"
+            android:layout_height="350dp"
+            android:layout_toRightOf="@+id/back">
+
+            &lt;!&ndash; 2 columns &ndash;&gt;
+            <TableRow
+                android:id="@+id/row1_frag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="2dip" >
+
+                <TextView
+                    android:id="@+id/t_1_1"
+                    android:text="Standard"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/t_1_2"
+                    android:text="Standard Curcumins"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/t_1_3"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:text="Ultrasol"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/row2_frag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/t_2_1"
+                    android:text="25 gram"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/t_2_2"
+                    android:text="0.5 gram"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/t_2_3"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            &lt;!&ndash; 3 columns &ndash;&gt;
+            <TableRow
+                android:id="@+id/row3_frag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/t_3_1"
+                    android:text="Fat soluble"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/t_3_2"
+                    android:text="Fat soluble"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/t_3_3"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="Water soluble"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            &lt;!&ndash; 2 columns &ndash;&gt;
+            <TableRow
+                android:id="@+id/row4_frag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/t_4_1"
+                    android:text="Negligible Active (Curcumin)"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/t_4_2"
+                    android:text="Poor absorption
+    Rapid metabolism
+    Rapid elimination"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/t_4_3"
+                    android:layout_weight="1"
+                    android:textSize="20sp"
+                    android:text="47-times more
+    absorbed"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+            &lt;!&ndash; 2 columns &ndash;&gt;
+            <TableRow
+                android:id="@+id/row5_frag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="8dp"
+                android:padding="5dip" >
+
+                <TextView
+                    android:id="@+id/t_5_1"
+                    android:text="Cannot impact clinically"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/t_5_2"
+                    android:text="Minimum clinical impact;
+    6-8% of the Qty
+    is absorbed"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                <TextView
+                    android:id="@+id/t_5_3"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="
+    80% absorbed"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </TableRow>
+
+        </TableLayout>-->
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="93dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp"
+            android:clickable="true"
+            android:rotation="180"
+            android:src="@drawable/arw" />
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/back"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/back"
+            android:gravity="center"
+            android:text="3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/arw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/back"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="54dp"
+            android:clickable="true"
+            android:src="@drawable/arw" />
+
+        <TextView
+            android:id="@+id/txt_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/head_1_frag3"
+            android:layout_toStartOf="@+id/head_1_frag3"
+            android:gravity="center"
+            android:text="04"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab3"
+            android:src="@drawable/tab3"
+            android:layout_above="@+id/back"
+            android:layout_toRightOf="@+id/textno"
+            android:layout_toEndOf="@+id/textno"
+            android:layout_marginLeft="71dp"
+            android:layout_marginStart="71dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Pharmacokinetic studies have proven that UltraSol curcumin is best absorbed among similar type of delivery platform and with respect to standard curcumin, is 46 times better bioavilable."
+            android:id="@+id/tab3_txt"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/back"
+            android:layout_alignLeft="@+id/tab3"
+            android:layout_alignStart="@+id/tab3"
+            android:layout_alignRight="@+id/tab3"
+            android:layout_alignEnd="@+id/tab3" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView40"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="65dp"
+            android:src="@drawable/ultra_logo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</FrameLayout>

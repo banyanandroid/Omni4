@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_Video">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+
+        <TextView
+            android:id="@+id/head_frag9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Activates tumor suppressor genes"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/red"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="89dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginStart="53dp"
+            android:clickable="true"
+            android:rotation="180"
+            android:src="@drawable/arw"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="270dp"
+            android:id="@+id/frag9_img"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/nine_table"
+            android:layout_marginBottom="40dp"
+            android:layout_above="@+id/back"
+            android:layout_toRightOf="@+id/textView24"
+            android:layout_toEndOf="@+id/textView24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Demonstrated efficacy in:"
+            android:id="@+id/textView23"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignTop="@+id/frag9_img"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView16"
+            android:layout_below="@+id/textView23"
+            android:layout_alignLeft="@+id/textView23"
+            android:layout_alignStart="@+id/textView23"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Glioblastoma, when added along with CT+RT"
+            android:id="@+id/textView24"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/textView23"
+            android:layout_toRightOf="@+id/imageView16" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView18"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView24"
+            android:layout_alignLeft="@+id/imageView16"
+            android:layout_alignStart="@+id/imageView16"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Squamous cell carcinoma of H &amp; N"
+            android:id="@+id/textView25"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView18"
+            android:layout_alignLeft="@+id/textView24"
+            android:layout_alignStart="@+id/textView24" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView20"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView25"
+            android:layout_alignLeft="@+id/imageView18"
+            android:layout_alignStart="@+id/imageView18"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="NSCLC"
+            android:textColor="@color/black"
+            android:id="@+id/textView27"
+            android:layout_alignTop="@+id/imageView20"
+            android:layout_alignLeft="@+id/textView25"
+            android:layout_alignStart="@+id/textView25" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView21"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView27"
+            android:layout_alignLeft="@+id/imageView20"
+            android:layout_alignStart="@+id/imageView20"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Prevents or delay cancer progression"
+            android:id="@+id/textView28"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/imageView21"
+            android:layout_alignLeft="@+id/textView27"
+            android:layout_alignStart="@+id/textView27" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="11"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textView48"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/imageView21"
+            android:layout_alignStart="@+id/imageView21" />
+
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

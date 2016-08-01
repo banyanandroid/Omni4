@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag10_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:rotation="180"
+            android:src="@drawable/arw"
+            android:layout_alignBottom="@+id/img_10_2"
+            android:layout_alignLeft="@+id/textView37"
+            android:layout_alignStart="@+id/textView37" />
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/back"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/back"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="08"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Corrects cachexia, muscle wasting and fatigue"
+            android:id="@+id/textView37"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="75dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView29"
+            android:layout_below="@+id/textView37"
+            android:layout_toRightOf="@+id/back"
+            android:layout_toEndOf="@+id/back"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Controls chronic inflammation through regulating NF-kB"
+            android:id="@+id/textView38"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView29"
+            android:layout_toRightOf="@+id/imageView29"
+            android:layout_toEndOf="@+id/imageView29" />
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="270dp"
+            android:id="@+id/img_10_2"
+            android:src="@drawable/img_10_2"
+            android:layout_marginRight="174dp"
+            android:layout_marginEnd="174dp"
+            android:layout_alignTop="@+id/textView39"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView31"
+            android:src="@drawable/bullet"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView38"
+            android:layout_toLeftOf="@+id/textView38"
+            android:layout_toStartOf="@+id/textView38" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Preserves the skeletal muscle mass"
+            android:id="@+id/textView39"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/imageView31"
+            android:layout_alignLeft="@+id/textView38"
+            android:layout_alignStart="@+id/textView38"
+            android:layout_toLeftOf="@+id/img_10_2"
+            android:layout_toStartOf="@+id/img_10_2" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView32"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView39"
+            android:layout_alignLeft="@+id/imageView31"
+            android:layout_alignStart="@+id/imageView31"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Stimulates protein synthesis and reverses protein atrophy"
+            android:id="@+id/textView40"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/imageView32"
+            android:layout_alignLeft="@+id/textView39"
+            android:layout_alignStart="@+id/textView39"
+            android:layout_toLeftOf="@+id/img_10_2"
+            android:layout_toStartOf="@+id/img_10_2" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView33"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView40"
+            android:layout_alignLeft="@+id/imageView32"
+            android:layout_alignStart="@+id/imageView32"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Improves muscle function, reduces fatigue &amp; ensures early recovery"
+            android:id="@+id/textView41"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/imageView33"
+            android:layout_alignLeft="@+id/textView40"
+            android:layout_alignStart="@+id/textView40"
+            android:layout_toLeftOf="@+id/img_10_2"
+            android:layout_toStartOf="@+id/img_10_2" />
+
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+</FrameLayout>

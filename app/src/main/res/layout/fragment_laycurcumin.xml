@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/curcumin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_Video">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="4"
+            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginStart="33dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curcumin is not Turmeric"
+            android:id="@+id/curcumin_txt"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_marginTop="77dp"
+            android:layout_marginLeft="201dp"
+            android:layout_marginStart="201dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textno"
+            android:layout_toEndOf="@+id/textno" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/curcumin_img"
+            android:src="@drawable/curcumin_img"
+            android:layout_marginLeft="107dp"
+            android:layout_marginStart="107dp"
+            android:layout_above="@+id/imageView42"
+            android:layout_toRightOf="@+id/textno"
+            android:layout_toEndOf="@+id/textno" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView42"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ultra_logo"
+            android:layout_above="@+id/textno"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="53dp" />
+
+
+    </RelativeLayout>
+</FrameLayout>

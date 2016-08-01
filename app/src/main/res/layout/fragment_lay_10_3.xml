@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag10_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:rotation="180"
+            android:src="@drawable/arw"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/imageView37"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/back"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/back"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="09"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Restores normalization of mucosal lining"
+            android:id="@+id/textView42"
+            android:textColor="@color/red"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="75dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/back"
+            android:layout_alignStart="@+id/back" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:id="@+id/imageView34"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView42"
+            android:layout_alignLeft="@+id/textView42"
+            android:layout_alignStart="@+id/textView42"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Controls chronic inflammation through regulating NF-kB"
+            android:id="@+id/textView43"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/imageView34"
+            android:layout_toRightOf="@+id/imageView34"
+            android:layout_toEndOf="@+id/imageView34" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView35"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView43"
+            android:layout_alignLeft="@+id/textView43"
+            android:layout_alignStart="@+id/textView43"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Minimizes DNA level damage as well generation of ROS"
+            android:id="@+id/textView44"
+            android:textSize="26sp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView35"
+            android:layout_toRightOf="@+id/imageView35"
+            android:layout_toEndOf="@+id/imageView35" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView36"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView44"
+            android:layout_alignLeft="@+id/imageView35"
+            android:layout_alignStart="@+id/imageView35"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Counteracts damage due to proinflammatory cascade"
+            android:id="@+id/textView45"
+            android:textSize="26sp"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/imageView36"
+            android:layout_alignLeft="@+id/textView44"
+            android:layout_alignStart="@+id/textView44" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="33dp"
+            android:id="@+id/imageView37"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/textView45"
+            android:layout_alignLeft="@+id/imageView36"
+            android:layout_alignStart="@+id/imageView36"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Helps fight against bacterial invasion through anti-bacterial effect"
+            android:id="@+id/textView46"
+            android:textSize="26sp"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/imageView37"
+            android:layout_alignLeft="@+id/textView45"
+            android:layout_alignStart="@+id/textView45" />
+
+
+    </RelativeLayout>
+</FrameLayout>
