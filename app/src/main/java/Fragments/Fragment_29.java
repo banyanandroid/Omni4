@@ -22,7 +22,7 @@ import java.io.IOException;
 
 public class Fragment_29 extends Fragment {
     int fragVal;
-    RelativeLayout r1, r2;
+
     ImageView center_bg, omni_bg;
     TextView strngth_bg;
     MediaPlayer player;
@@ -49,15 +49,11 @@ public class Fragment_29 extends Fragment {
         final View layoutView = inflater.inflate(R.layout.fragment_lay_29, container,
                 false);
 
-        r1 = (RelativeLayout) layoutView.findViewById(R.id.r_1);
-        r2 = (RelativeLayout) layoutView.findViewById(R.id.r_2);
-
-
         omni_bg = (ImageView) layoutView.findViewById(R.id.omni_bg);
         center_bg = (ImageView) layoutView.findViewById(R.id.center_bg);
         strngth_bg = (TextView) layoutView.findViewById(R.id.strength_bg);
 
-        //ImageView next = (ImageView) layoutView.findViewById(R.id.next);
+        ImageView next = (ImageView) layoutView.findViewById(R.id.next);
         ImageView prev = (ImageView) layoutView.findViewById(R.id.prev);
 
         YoYo.with(Techniques.ZoomIn)
@@ -78,45 +74,24 @@ public class Fragment_29 extends Fragment {
                 Fragment_28 fragment_28 = new Fragment_28();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.conk, fragment_28);
+                fragmentTransaction.replace(R.id.frag29, fragment_28);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 
             }
         });
-        /*next.setOnClickListener(new View.OnClickListener() {
+        next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Fragment_18 fragment_18 = new Fragment_18();
+                Fragment_29_1 Fragment_29_1 = new Fragment_29_1();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.conk, fragment_18);
+                fragmentTransaction.replace(R.id.frag29, Fragment_29_1);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });
-*/
-        r1.setVisibility(View.GONE);
-        r2.setVisibility(View.GONE);
-
-
-        r1.postDelayed(new Runnable() {
-            public void run() {
-                r1.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_1));
-            }
-        }, 100);
-        r2.postDelayed(new Runnable() {
-            public void run() {
-                r2.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_2));
-            }
-        }, 200);
 
         return layoutView;
     }

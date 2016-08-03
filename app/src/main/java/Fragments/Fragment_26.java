@@ -68,9 +68,6 @@ public class Fragment_26 extends Fragment {
         final View layoutView = inflater.inflate(R.layout.fragment_lay_26, container,
                 false);
 
-
-        /*imageView4 = (ImageView) layoutView.findViewById(R.id.imageView4);
-        imageView5 = (ImageView) layoutView.findViewById(R.id.imageView5);*/
         ImageView next = (ImageView) layoutView.findViewById(R.id.next);
 
         next.setOnClickListener(new View.OnClickListener() {

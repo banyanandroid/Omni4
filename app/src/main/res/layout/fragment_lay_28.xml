@@ -11,215 +11,144 @@
         android:layout_height="match_parent"
         android:background="@color/white">
 
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView3"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/omni_bg"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="40dp"
-                android:src="@drawable/center_2" />
-
-            <ImageView
-                android:id="@+id/center_bg"
-                android:layout_width="130dp"
-                android:layout_height="50dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/omni" />
-
-            <TextView
-                android:id="@+id/strength_bg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/omni_bg"
-                android:layout_alignStart="@+id/omni_bg"
-                android:layout_below="@+id/omni_bg"
-                android:text="@string/strength"
-                android:textColor="@color/navy"
-                android:textSize="14sp"
-                android:gravity="center"
-                android:layout_alignRight="@+id/omni_bg"
-                android:layout_alignEnd="@+id/omni_bg" />
-
-            <View
-                android:id="@+id/view3"
-                android:layout_width="fill_parent"
-                android:layout_height="15dip"
-                android:layout_above="@+id/on"
-                android:background="@color/red" />
-
-            <View
-                android:id="@+id/on"
-                android:layout_width="fill_parent"
-                android:layout_height="30dip"
-                android:layout_alignParentBottom="true"
-                android:background="@color/yellow" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="500dp"
-                android:layout_height="140dp"
-                android:layout_above="@+id/strength_bg"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="10dp"
-                android:layout_toRightOf="@+id/center_bg"
-                android:src="@drawable/img22" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/strength_bg"
-                android:layout_alignLeft="@+id/r_1"
-                android:layout_alignStart="@+id/r_1"
-                android:layout_marginTop="20dp"
-                android:layout_toLeftOf="@+id/omni_bg"
-                android:gravity="center"
-                android:text="A novel option in Neuropsychiatric disorders"
-                android:textColor="@color/red"
-                android:textSize="28sp"
-                android:textStyle="bold" />
-
-            <RelativeLayout
-                android:id="@+id/r_1"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_alignLeft="@+id/center_bg"
-                android:layout_alignStart="@+id/center_bg"
-                android:layout_below="@+id/textView5"
-                android:layout_marginTop="25dp">
-
-                <ImageView
-                    android:id="@+id/bullet_1"
-                    android:layout_width="100dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/pt_1_frag11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/bullet_1"
-                    android:text="Inhibits COX-2 (cyclooxygenase, IL -1 and NF- kappa B)"
-                    android:textColor="@color/black"
-                    android:textSize="28sp" />
-
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_2"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_alignLeft="@+id/r_1"
-                android:layout_alignStart="@+id/r_1"
-                android:layout_below="@+id/r_1"
-                android:layout_marginTop="25dp">
-
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="100dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/imageView7"
-                    android:text="Decreases NO related inflammation (through Inos synthase)"
-                    android:textColor="@color/black"
-                    android:textSize="28sp" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_3"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_alignLeft="@+id/r_2"
-                android:layout_alignStart="@+id/r_2"
-                android:layout_below="@+id/r_2"
-                android:layout_marginTop="25dp">
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="100dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/imageView8"
-                    android:text="Reduces the expression of inflammatory markers of astrocytes"
-                    android:textColor="@color/black"
-                    android:textSize="28sp" />
-
-            </RelativeLayout>
-
-            <ImageView
-                android:id="@+id/prev"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/view3"
-                android:layout_alignLeft="@+id/r_3"
-                android:layout_alignStart="@+id/r_3"
-                android:src="@drawable/prev" />
-
-            <ImageView
-                android:id="@+id/next"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/view3"
-                android:layout_alignEnd="@+id/r_3"
-                android:layout_alignRight="@+id/r_3"
-                android:src="@drawable/next" />
-
-
-        </RelativeLayout>
-
+        <include layout="@layout/back_1"></include>
 
         <TextView
-            android:id="@+id/textno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Anti- Alzheimer"
+            android:id="@+id/frag28_head"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_marginTop="82dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"
-            android:text="22"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
+            android:layout_alignParentStart="true" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag28_bull1"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag28_head"
+            android:layout_alignLeft="@+id/frag28_head"
+            android:layout_alignStart="@+id/frag28_head"
+            android:src="@drawable/bullet" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/pt_last_frag11"
-            android:layout_alignRight="@+id/pt_last_frag11"
-            android:layout_alignTop="@+id/pt_last_frag11" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Effectively crosses BBB to bind to plaques and inhibits amyloid beta oligomer by activating macrophages"
+            android:id="@+id/frag28_pt1"
+            android:layout_marginRight="180dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:layout_alignTop="@+id/frag28_bull1"
+            android:layout_toRightOf="@+id/frag28_bull1"
+            android:layout_toEndOf="@+id/frag28_bull1" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView44"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/frag28_pt1"
+            android:layout_alignLeft="@+id/frag28_pt1"
+            android:layout_alignStart="@+id/frag28_pt1"
+            android:src="#f6e70c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Clears existing (Veteran affair study 2004) as well as newer blocks formation (phagocytosis)"
+            android:id="@+id/frag28_pt1_1"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView44"
+            android:layout_toRightOf="@+id/imageView44"
+            android:layout_alignRight="@+id/frag28_pt1"
+            android:layout_alignEnd="@+id/frag28_pt1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag28_bull2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag28_pt1_1"
+            android:layout_alignLeft="@+id/frag28_bull1"
+            android:layout_alignStart="@+id/frag28_bull1"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Regulates neuroglial cells"
+            android:id="@+id/frag28_pt2"
+            android:layout_alignTop="@+id/frag28_bull2"
+            android:layout_alignLeft="@+id/imageView44"
+            android:layout_alignStart="@+id/imageView44" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView46"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag28_bull2"
+            android:layout_alignLeft="@+id/frag28_pt2"
+            android:layout_alignStart="@+id/frag28_pt2"
+            android:src="#fde003" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Decrease astocyte proliferation, improves myelogenesis and increases activity of oligodendrocytes"
+            android:id="@+id/frag28_pt2_1"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/imageView46"
+            android:layout_alignLeft="@+id/frag28_pt1_1"
+            android:layout_alignStart="@+id/frag28_pt1_1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag28_bull3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag28_pt2_1"
+            android:layout_alignLeft="@+id/frag28_bull2"
+            android:layout_alignStart="@+id/frag28_bull2"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inhebits Chlosterol formation and decreases serum peroxide"
+            android:id="@+id/frag28_pt3"
+            android:layout_alignTop="@+id/frag28_bull3"
+            android:layout_alignLeft="@+id/imageView46"
+            android:layout_alignStart="@+id/imageView46" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="28"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textView53"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
 
     </RelativeLayout>
 </FrameLayout>

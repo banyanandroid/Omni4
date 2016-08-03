@@ -9,236 +9,112 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white">
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical"
-            android:layout_below="@+id/imageView3"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
 
-            <ImageView
-                android:id="@+id/omni_bg"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="40dp"
-                android:src="@drawable/center_2"
-                />
-
-            <ImageView
-                android:id="@+id/center_bg"
-                android:layout_width="130dp"
-                android:layout_height="50dp"
-                android:src="@drawable/omni"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_alignParentLeft="true" />
-
-            <TextView
-                android:id="@+id/strength_bg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/strength"
-                android:textColor="@color/navy"
-                android:textSize="14sp"
-                android:layout_below="@+id/omni_bg"
-                android:layout_alignLeft="@+id/omni_bg"
-                android:layout_alignStart="@+id/omni_bg" />
-
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="15dip"
-                android:layout_above="@+id/on"
-                android:background="@color/red"
-                android:id="@+id/view3" />
-            <View
-                android:id="@+id/on"
-                android:layout_width="fill_parent"
-                android:layout_marginTop="3dp"
-                android:layout_height="27dp"
-                android:layout_alignParentBottom="true"
-                android:background="@color/yellow" />
-
-            <ImageView
-                android:layout_width="500dp"
-                android:layout_height="140dp"
-                android:layout_marginLeft="50dp"
-                android:id="@+id/imageView6"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="20dp"
-                android:scaleType="matrix"
-                android:visibility="gone"
-                android:layout_above="@+id/strength_bg"
-                android:layout_toRightOf="@+id/center_bg"
-                android:src="@drawable/img_18" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="32sp"
-                android:layout_marginTop="45dp"
-                android:textColor="@color/red"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:text="A novel option in MDD"
-                android:id="@+id/textView5"
-                android:layout_below="@+id/center_bg"
-                android:layout_centerHorizontal="true" />
-
-            <RelativeLayout
-                android:id="@+id/r_1"
-                android:layout_marginTop="25dp"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:layout_below="@+id/textView5"
-                android:layout_alignLeft="@+id/center_bg"
-                android:layout_alignStart="@+id/center_bg">
-
-                <ImageView
-                    android:id="@+id/bullet_1"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:layout_toRightOf="@+id/bullet_1"
-                    android:layout_alignParentBottom="true">
-                <TextView
-                    android:id="@+id/pt_1_frag11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Solo or in combination with standard antidepressants at a lower dose"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="24sp"
-                    android:gravity="center|left" />
-
-                </LinearLayout>
-
-
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_2"
-                android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_alignLeft="@+id/r_1"
-                android:layout_alignStart="@+id/r_1"
-                android:layout_below="@+id/r_1">
-
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="100dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="In refractory cases"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="24sp"
-                    android:layout_toRightOf="@+id/imageView7"
-                    android:layout_alignParentBottom="true" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_3"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_marginTop="5dp"
-                android:layout_below="@+id/r_2"
-                android:layout_alignLeft="@+id/r_2"
-                android:layout_alignStart="@+id/r_2">
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="100dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="20dp"
-                    android:visibility="invisible"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Tackle residual symptoms –cognitive dysfunction &amp; pyschological impairment"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="24sp"
-                    android:gravity="center|left"
-                    android:layout_toRightOf="@+id/imageView8"
-                    android:layout_alignParentBottom="true" />
-
-            </RelativeLayout>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/prev"
-                android:src="@drawable/prev"
-                android:layout_above="@+id/view3"
-                android:layout_alignLeft="@+id/r_3"
-                android:layout_alignStart="@+id/r_3" />
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Dosage : 2 Tablets daily or as directed by Physician."
-                android:id="@+id/textView11"
-                android:textColor="#ff0000"
-                android:layout_alignBottom="@+id/prev"
-                android:layout_centerHorizontal="true" />
-
-            <ImageView
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:id="@+id/imageView11"
-                android:src="@drawable/clinical_16"
-                android:layout_below="@+id/r_3"
-                android:layout_marginTop="10dp"
-                android:layout_alignLeft="@+id/textView5"
-                android:layout_alignStart="@+id/textView5" />
-
-        </RelativeLayout>
-
-
-
+        <include layout="@layout/back_1"></include>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="25"
-            android:layout_marginLeft="20dp"
-            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A novel option in MDD"
+            android:id="@+id/textView63"
+            android:textSize="36sp"
+            android:textColor="@color/red"
             android:textStyle="bold"
-            android:id="@+id/textno"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="91dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView49"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView63"
+            android:layout_alignLeft="@+id/textView63"
+            android:layout_alignStart="@+id/textView63"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="680dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Solo or in combination with standard antidepressants at a lower dose"
+            android:id="@+id/textView64"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView49"
+            android:layout_toRightOf="@+id/imageView49"
+            android:layout_toEndOf="@+id/imageView49" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView50"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageView49"
+            android:layout_alignLeft="@+id/imageView49"
+            android:layout_alignStart="@+id/imageView49"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="In refractory cases"
+            android:id="@+id/textView65"
+            android:layout_alignTop="@+id/imageView50"
+            android:layout_alignLeft="@+id/textView64"
+            android:layout_alignStart="@+id/textView64" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tackle residual symptoms –cognitive dysfunction &amp; pyschological impairment"
+            android:id="@+id/textView66"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageView50"
+            android:layout_alignLeft="@+id/textView65"
+            android:layout_alignStart="@+id/textView65" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView3"
-            android:layout_alignTop="@+id/pt_last_frag11"
-            android:layout_alignRight="@+id/pt_last_frag11"
-            android:layout_alignEnd="@+id/pt_last_frag11" />
+            android:id="@+id/imageView51"
+            android:layout_marginTop="10dp"
+            android:layout_alignRight="@+id/textView64"
+            android:layout_alignEnd="@+id/textView64"
+            android:src="@drawable/bottel_img"
+            android:layout_below="@+id/textView66"
+            android:layout_alignParentBottom="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dosage : 2 Tablets daily or as directed by Physician."
+            android:id="@+id/textView67"
+            android:textColor="#ff0000"
+            android:layout_marginBottom="41dp"
+            android:layout_alignBottom="@+id/imageView51"
+            android:layout_alignLeft="@+id/textView66"
+            android:layout_alignStart="@+id/textView66"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="25"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textView68"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 </FrameLayout>

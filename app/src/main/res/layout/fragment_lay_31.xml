@@ -98,6 +98,28 @@
                         android:layout_marginRight="40dp"
                         android:src="@drawable/next" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Unresolved"
+                        android:textSize="42sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:id="@+id/textView61"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="chronic inflammation"
+                        android:id="@+id/textView62"
+                        android:textStyle="bold"
+                        android:layout_below="@+id/textView61"
+                        android:layout_centerHorizontal="true" />
+
 
                 </RelativeLayout>
 
@@ -111,9 +133,9 @@
         <ImageView
             android:id="@+id/one_frag2"
             android:layout_width="400dp"
-            android:layout_height="360dp"
+            android:layout_height="260dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="80dp"
             android:src="@drawable/img31" />
 
 

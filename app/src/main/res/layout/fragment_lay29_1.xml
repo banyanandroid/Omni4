@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag29_1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:layout_width="650dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="The natural bioprotectant with Anti-alzheimer and anti-inflammatory benefits;"
+            android:id="@+id/textView56"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_marginTop="79dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView43"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView56"
+            android:layout_alignLeft="@+id/textView56"
+            android:layout_alignStart="@+id/textView56"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inhibits B-amyloidal formation "
+            android:id="@+id/textView57"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/imageView43"
+            android:layout_toRightOf="@+id/imageView43"
+            android:layout_toEndOf="@+id/imageView43" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView45"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/imageView43"
+            android:layout_alignLeft="@+id/imageView43"
+            android:layout_alignStart="@+id/imageView43"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Regulates chronic inflammation "
+            android:id="@+id/textView58"
+            android:layout_alignTop="@+id/imageView45"
+            android:layout_alignLeft="@+id/textView57"
+            android:layout_alignStart="@+id/textView57" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView47"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/imageView45"
+            android:layout_alignLeft="@+id/imageView45"
+            android:layout_alignStart="@+id/imageView45"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Neurostimulant/antidepressant"
+            android:id="@+id/textView59"
+            android:layout_alignTop="@+id/imageView47"
+            android:layout_alignLeft="@+id/textView58"
+            android:layout_alignStart="@+id/textView58" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView48"
+            android:src="@drawable/bottel_img"
+            android:layout_toRightOf="@+id/textView58"
+            android:layout_toEndOf="@+id/textView58"
+            android:layout_marginLeft="106dp"
+            android:layout_marginStart="106dp"
+            android:layout_alignTop="@+id/textView58" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dosage-1-2 tablets daily "
+            android:id="@+id/textView60"
+            android:background="@color/yellow"
+            android:layout_marginRight="157dp"
+            android:layout_marginEnd="157dp"
+            android:layout_alignBottom="@+id/imageView48"
+            android:layout_alignRight="@+id/textView56"
+            android:layout_alignEnd="@+id/textView56"
+            android:layout_marginBottom="48dp" />
+
+        <include layout="@layout/back_1"></include>
+
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/conk"
+    android:id="@+id/frag29"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="Fragments.Fragment_11">
@@ -11,245 +11,151 @@
         android:layout_height="match_parent"
         android:background="@color/white">
 
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView3"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/omni_bg"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="40dp"
-                android:src="@drawable/center_2" />
-
-            <ImageView
-                android:id="@+id/center_bg"
-                android:layout_width="130dp"
-                android:layout_height="50dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/omni" />
-
-            <TextView
-                android:id="@+id/strength_bg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_alignLeft="@+id/omni_bg"
-                android:layout_alignStart="@+id/omni_bg"
-                android:layout_alignRight="@+id/omni_bg"
-                android:layout_alignEnd="@+id/omni_bg"
-                android:layout_below="@+id/omni_bg"
-                android:text="@string/strength"
-                android:textColor="@color/navy"
-                android:textSize="14sp" />
-
-            <View
-                android:id="@+id/view3"
-                android:layout_width="fill_parent"
-                android:layout_height="15dip"
-                android:layout_above="@+id/on"
-                android:background="@color/red" />
-
-            <View
-                android:id="@+id/on"
-                android:layout_width="fill_parent"
-                android:layout_height="27dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginTop="3dp"
-                android:background="@color/yellow" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView11"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignRight="@+id/textView11"
-                android:layout_below="@+id/center_bg"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:text="A novel option to tackle MCI (e.g. Alzheimer)"
-                android:textColor="@color/red"
-                android:textSize="26sp"
-                android:textStyle="bold" />
-
-            <RelativeLayout
-                android:id="@+id/r_1"
-                android:layout_width="match_parent"
-                android:layout_height="36dp"
-                android:layout_alignLeft="@+id/center_bg"
-                android:layout_alignStart="@+id/center_bg"
-                android:layout_below="@+id/textView5"
-                android:layout_marginTop="5dp">
-
-                <ImageView
-                    android:id="@+id/bullet_1"
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/pt_1_frag11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/bullet_1"
-                    android:gravity="center|left"
-                    android:text="Controls inflammation through inhibiting IL-1, IL-6 and TNF"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/r_1"
-                android:layout_alignStart="@+id/r_1"
-                android:layout_below="@+id/r_1"
-                android:layout_marginTop="5dp">
-
-                <ImageView
-                    android:id="@+id/ico_7"
-                    android:layout_width="60dp"
-                    android:layout_height="45dp"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/textView6"
-                        android:layout_width="595dp"
-                        android:layout_height="match_parent"
-                        android:layout_alignBottom="@+id/imageView7"
-                        android:layout_marginLeft="100dp"
-                        android:layout_toRightOf="@+id/imageView7"
-                        android:text="Neurostimulant"
-                        android:textColor="@color/black"
-                        android:textSize="22sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:id="@+id/textView16"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/imageView7"
-                        android:layout_marginLeft="120dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_toRightOf="@+id/imageView7"
-                        android:text="Natural mood elevator – increases monoamines level"
-                        android:textColor="@color/black"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:id="@+id/textView26"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/imageView7"
-                        android:layout_marginLeft="120dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_toRightOf="@+id/imageView7"
-                        android:text="Improves memory processing through increasing Norepinephrine levels"
-                        android:textColor="@color/black"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:id="@+id/textView32"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/imageView7"
-                        android:layout_marginLeft="120dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_toRightOf="@+id/imageView7"
-                        android:text="Increase alertness, wakefulness and focus"
-                        android:textColor="@color/black"
-                        android:textSize="22sp" />
-
-                    <TextView
-                        android:id="@+id/textView233"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignBottom="@+id/imageView7"
-                        android:layout_marginLeft="120dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_toRightOf="@+id/imageView7"
-                        android:text="Increase in working memory neural speed and capacity."
-                        android:textColor="@color/black"
-                        android:textSize="22sp" />
-
-                </LinearLayout>
-            </RelativeLayout>
-
-            <ImageView
-                android:id="@+id/prev"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/view3"
-                android:layout_alignLeft="@+id/r_2"
-                android:layout_alignStart="@+id/r_2"
-                android:src="@drawable/prev" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/view3"
-                android:layout_centerHorizontal="true"
-                android:text="Dosage : 2 Tablets daily or as directed by Physician."
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#ff0000" />
-
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:layout_above="@+id/textView11"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp"
-                android:src="@drawable/clinical_16" />
-
-        </RelativeLayout>
-
+        <include layout="@layout/back_1"></include>
 
         <TextView
-            android:id="@+id/textno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Anti-inflammatory"
+            android:id="@+id/frag29_head1"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"
-            android:text="29"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="74dp" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag29_bull1"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag29_head1"
+            android:layout_alignLeft="@+id/frag29_head1"
+            android:layout_alignStart="@+id/frag29_head1"
+            android:src="@drawable/bullet" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/pt_last_frag11"
-            android:layout_alignRight="@+id/pt_last_frag11"
-            android:layout_alignTop="@+id/pt_last_frag11" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Controls inflammation through inhibiting IL-1, IL-6 and TNF"
+            android:id="@+id/frag29_pt1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="200dp"
+            android:layout_alignTop="@+id/frag29_bull1"
+            android:layout_toRightOf="@+id/frag29_bull1"
+            android:layout_toEndOf="@+id/frag29_bull1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Antioxidant and Antidepressant"
+            android:id="@+id/frag29_head2"
+            android:textSize="26sp"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_below="@+id/frag29_bull1"
+            android:layout_alignLeft="@+id/frag29_bull1"
+            android:layout_alignStart="@+id/frag29_bull1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag29_bul2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag29_head2"
+            android:layout_alignLeft="@+id/frag29_head2"
+            android:layout_alignStart="@+id/frag29_head2"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Natural mood elevator – increases monoamines level"
+            android:id="@+id/frag29_pt2"
+            android:layout_alignTop="@+id/frag29_bul2"
+            android:layout_alignLeft="@+id/frag29_pt1"
+            android:layout_alignStart="@+id/frag29_pt1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag29_bul3"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/frag29_bul2"
+            android:layout_alignLeft="@+id/frag29_bul2"
+            android:layout_alignStart="@+id/frag29_bul2"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Improves memory processing through increasing Norepinephrine levels"
+            android:id="@+id/frag29_pt3"
+            android:layout_alignTop="@+id/frag29_bul3"
+            android:layout_alignLeft="@+id/frag29_pt2"
+            android:layout_alignStart="@+id/frag29_pt2" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag29_pt4"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/frag29_bul3"
+            android:layout_alignLeft="@+id/frag29_bul3"
+            android:layout_alignStart="@+id/frag29_bul3"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increase alertness, wakefulness and focus"
+            android:id="@+id/textView32"
+            android:layout_alignTop="@+id/frag29_pt4"
+            android:layout_alignLeft="@+id/frag29_pt3"
+            android:layout_alignStart="@+id/frag29_pt3" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag29_bul5"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/frag29_pt4"
+            android:layout_alignLeft="@+id/frag29_pt4"
+            android:layout_alignStart="@+id/frag29_pt4"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Increase in working memory neural speed and capacity."
+            android:id="@+id/textView54"
+            android:layout_alignTop="@+id/frag29_bul5"
+            android:layout_alignLeft="@+id/textView32"
+            android:layout_alignStart="@+id/textView32" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="29"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textView55"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
     </RelativeLayout>
 </FrameLayout>
