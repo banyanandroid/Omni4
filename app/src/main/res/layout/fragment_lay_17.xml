@@ -226,13 +226,6 @@
                         android:textSize="20sp" />
                 </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/imageView11"
-                    android:layout_width="280dp"
-                    android:layout_height="40dp"
-                    android:layout_below="@+id/linearLayout"
-                    android:layout_centerHorizontal="true"
-                    android:src="@drawable/clinical_16" />
             </RelativeLayout>
 
             <ImageView
@@ -258,11 +251,20 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/r_3"
-                android:layout_centerHorizontal="true"
-                android:text="Dosage : 2 Tablets daily or as directed by Physician."
+                android:text="Dosage :1 - 2 Tablets daily or as directed by Physician."
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#ff0000" />
+                android:textColor="#ff0000"
+                android:layout_above="@+id/view3"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:src="@drawable/clinical_16"
+                android:layout_above="@+id/textView11"
+                android:layout_toRightOf="@+id/center_bg"
+                android:layout_toEndOf="@+id/center_bg" />
 
         </RelativeLayout>
 
