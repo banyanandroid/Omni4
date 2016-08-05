@@ -84,7 +84,7 @@ public class Fragment_26 extends Fragment {
 
             }
         });
-        ball = (ImageView) layoutView.findViewById(R.id.ball_13);
+       // ball = (ImageView) layoutView.findViewById(R.id.ball_13);
 
         /*tab_nam = (TextView) layoutView.findViewById(R.id.tab_nam);
         textView2 = (TextView) layoutView.findViewById(R.id.textView2);

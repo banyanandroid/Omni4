@@ -21,7 +21,7 @@ import com.daimajia.androidanimations.library.YoYo;
 public class Fragment_555 extends Fragment {
     int fragVal;
 
-    ImageView center_bg, omni_bg, arrow_1, arrow_2, arrow_3, arrow_4, arrow_5, next, prev;
+    ImageView center_bg, omni_bg, arrow_1, arrow_2, arrow_3, arrow_4, next, prev,ultra_img;
     TextView strngth_bg;
     FrameLayout con;
 
@@ -48,12 +48,13 @@ public class Fragment_555 extends Fragment {
         con = (FrameLayout) layoutView.findViewById(R.id.con);
 
 
-
+        ultra_img = (ImageView) layoutView.findViewById(R.id.ultra_img);
+        ultra_img.setVisibility(View.VISIBLE);
         arrow_1 = (ImageView) layoutView.findViewById(R.id.arrow_1);
         arrow_2 = (ImageView) layoutView.findViewById(R.id.arrow_2);
         arrow_3 = (ImageView) layoutView.findViewById(R.id.arrow_3);
         arrow_4 = (ImageView) layoutView.findViewById(R.id.arrow_4);
-        arrow_5 = (ImageView) layoutView.findViewById(R.id.arrow_5);
+        //arrow_5 = (ImageView) layoutView.findViewById(R.id.arrow_5);
         next = (ImageView) layoutView.findViewById(R.id.next);
         prev = (ImageView) layoutView.findViewById(R.id.prev);
 
@@ -109,7 +110,7 @@ public class Fragment_555 extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-        arrow_5.setOnClickListener(new View.OnClickListener() {
+        /*arrow_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -120,7 +121,7 @@ public class Fragment_555 extends Fragment {
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
-        });
+        });*/
        /* next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

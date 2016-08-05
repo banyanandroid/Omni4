@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Anti- Alzheimer"
+            android:text="Curcumin : Anti-Alzheimer"
             android:id="@+id/frag28_head"
             android:textSize="28sp"
             android:textStyle="bold"

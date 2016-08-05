@@ -152,10 +152,10 @@
 
         <ImageView
             android:id="@+id/omni_frag2"
-            android:layout_width="130dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="150dp"
-            android:layout_marginTop="20dp"
+            android:layout_width="290dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
             android:src="@drawable/omni" />
 
         <View
@@ -172,9 +172,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
             android:layout_marginTop="20dp"
             android:layout_toRightOf="@+id/view_2"
-            android:text="The Natural Bioprotectant that regulates chronic inflammation and has Anti-Depressant action"
+            android:text="The novel bioprotectant with antidepressant and neuroprotective benefits"
             android:textColor="@color/red"
             android:textSize="25sp"
             android:textStyle="bold" />

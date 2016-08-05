@@ -43,4 +43,38 @@ App Names
 
     <string name="frag13">The mysterious link between\n<b>IBS</b> and <b>IBD</b> is now identified</string>
 
+    <string name="frag22">Regulates COX-2 (cyclooxygenase, IL-1 and NF-kappa B<sup><small>1</small></sup></string>
+    <string name="frag22pt2">Decreases NO related inflammation 1 (through iNOS synthase)<sup><small>1</small></sup></string>
+    <string name="frag22pt3">Reduces the expression of inflammatory markers of astrocytes<sup><small>2</small></sup></string>
+
+    <string name="frag23pt1">Inhibits Monoamine oxidase<sup><small>2,3</small></sup></string>
+    <string name="frag23pt2">Modulates the serotonin and dopamineneurotransmission<sup><small>2</small></sup></string>
+    <string name="frag23pt3">Increases the levels of neurotropic factors, especially BDNF<sup><small>2,3</small></sup></string>
+    <string name="frag23pt4">Helps achieve cognitive remission<sup><small>2</small></sup></string>
+
+    <string name="frag33pt1">Prevents diabetes-induced decrease in the antioxidant capacity and increase in oxidatively modified DNA<sup><small>1</small></sup></string>
+    <string name="frag33pt2">Inhibits diabetes-induced elevation in the levels of IL-1beta, VEGF and NF-kB without impacting the sugar levels.<sup><small>1</small></sup></string>
+    <string name="frag33pt3">Controls Blood sugar and cholesterol</string>
+    <string name="frag33pt4">Treatment led to improvement in Visual acuity and retinal edema” <small>(P&#60;0.025 and P&#60;0.05, respectively)</small><sup><small>2</small></sup></string>
+
+    <string name="frag41pt1">Intervention significantly reduced T2D development<sup><small>1,2</small></sup></string>
+    <string name="frag41pt2">Lowers HbA1c, fasting and postprandial glucose levels and Cpeptide</string>
+    <string name="frag41pt3">Increased islet viability and delayed islet ROS production,</string>
+    <string name="frag41pt4">Prevents adipogenesis</string>
+    <string name="frag41pt5">Prevents progression to T2DII</string>
+
+    <string name="frag42pt1">Prevents progression of type 2 diabetes by inhibiting stress activated pathways in macrophages and other cells leading to reduced inflammation<sup><small>2</small></sup>.</string>
+    <string name="frag42pt2">Improves pancreatic-cell function and insulin resistance</string>
+    <string name="frag42pt3">Modulates PPAR gamma for better sugar uptake and utilization</string>
+    <string name="frag42pt4">Improves lipid profile by increasing HDL levels and decreasing LDL cholesterol</string>
+    <string name="frag42pt5">Treatment lowered both total serum FFA and TG through enhanced lipoprotein lipase (LPL) activity</string>
+    <string name="fag42pt5">Improves vascular dysfunction</string>
+
+    <string name="frag43head"><b>Protects from</b><sup><small>3,4</small></sup></string>
+    <string name="frag43pt1">Nephropathy, microangiopathy and Retinopathy</string>
+    <string name="frag43pt2">Diabetic Neuropathy</string>
+    <string name="frag43pt3">Corrects cognitive deficits</string>
+    <string name="frag43pt4">Diabetic induced vascular disease</string>
+    <string name="frag43pt5">Associated liver disorders</string>
+
 </resources>

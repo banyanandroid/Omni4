@@ -58,10 +58,10 @@ public class Fragment_46times extends Fragment {
             public void onClick(View v) {
 
 
-                Fragment_IBS_3 Fragment_IBS_3 = new Fragment_IBS_3();
+                Fragment_3 Fragment_3 = new Fragment_3();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.times, Fragment_IBS_3);
+                fragmentTransaction.replace(R.id.times, Fragment_3);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 
@@ -73,10 +73,10 @@ public class Fragment_46times extends Fragment {
             public void onClick(View v) {
 
 
-                Fragment_IBS_frag4 Fragment_IBS_frag4 = new Fragment_IBS_frag4();
+                Fragment_4 Fragment_4 = new Fragment_4();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.times, Fragment_IBS_frag4);
+                fragmentTransaction.replace(R.id.times, Fragment_4);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 

@@ -27,7 +27,7 @@ import java.sql.ClientInfoStatus;
 
 public class Fragment_5 extends Fragment {
     int fragVal;
-    ImageView center_bg, omni_bg, arrow_1, arrow_2, arrow_3, arrow_4, arrow_5, next, prev, arrow_2_2,arrow_2_3;
+    ImageView center_bg, omni_bg, arrow_1, arrow_2, arrow_3, arrow_4, next, prev, arrow_2_2,arrow_2_3;
     TextView strngth_bg;
     FrameLayout con;
 
@@ -63,7 +63,7 @@ public class Fragment_5 extends Fragment {
         arrow_2_3 = (ImageView) layoutView.findViewById(R.id.arrow_2_3);
         arrow_3 = (ImageView) layoutView.findViewById(R.id.arrow_3);
         arrow_4 = (ImageView) layoutView.findViewById(R.id.arrow_4);
-        arrow_5 = (ImageView) layoutView.findViewById(R.id.arrow_5);
+        //arrow_5 = (ImageView) layoutView.findViewById(R.id.arrow_5);
         next = (ImageView) layoutView.findViewById(R.id.next);
         prev = (ImageView) layoutView.findViewById(R.id.prev);
 
@@ -99,7 +99,7 @@ public class Fragment_5 extends Fragment {
 
             }
         });
-        arrow_5.setOnClickListener(new View.OnClickListener() {
+        /*arrow_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -112,7 +112,7 @@ public class Fragment_5 extends Fragment {
                 fragmentTransaction.commit();
 
             }
-        });
+        });*/
         arrow_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

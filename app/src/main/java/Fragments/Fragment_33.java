@@ -24,10 +24,9 @@ import java.io.IOException;
 
 public class Fragment_33 extends Fragment {
     int fragVal;
-    RelativeLayout r1, r2;
-    LinearLayout linear33;
+
     ImageView center_bg, omni_bg;
-    TextView strngth_bg, textView11;
+    TextView strngth_bg;
     MediaPlayer player;
     AssetFileDescriptor afd;
 
@@ -52,14 +51,11 @@ public class Fragment_33 extends Fragment {
         final View layoutView = inflater.inflate(R.layout.fragment_lay_33, container,
                 false);
 
-        r1 = (RelativeLayout) layoutView.findViewById(R.id.r_1);
-        r2 = (RelativeLayout) layoutView.findViewById(R.id.r_2);
-        linear33 = (LinearLayout) layoutView.findViewById(R.id.linear_33);
 
         omni_bg = (ImageView) layoutView.findViewById(R.id.omni_bg);
         center_bg = (ImageView) layoutView.findViewById(R.id.center_bg);
         strngth_bg = (TextView) layoutView.findViewById(R.id.strength_bg);
-        textView11 = (TextView) layoutView.findViewById(R.id.textView11);
+
 
         ImageView next = (ImageView) layoutView.findViewById(R.id.next);
         ImageView prev = (ImageView) layoutView.findViewById(R.id.prev);
@@ -103,44 +99,7 @@ public class Fragment_33 extends Fragment {
             }
         });
 
-        r1.setVisibility(View.GONE);
-        r2.setVisibility(View.GONE);
-        linear33.setVisibility(View.GONE);
-        textView11.setVisibility(View.GONE);
 
-
-        r1.postDelayed(new Runnable() {
-            public void run() {
-                r1.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_1));
-            }
-        }, 100);
-        r2.postDelayed(new Runnable() {
-            public void run() {
-                r2.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_2));
-            }
-        }, 200);
-        linear33.postDelayed(new Runnable() {
-            public void run() {
-                linear33.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.linear_33));
-            }
-        }, 300);
-        textView11.postDelayed(new Runnable() {
-            public void run() {
-                textView11.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.textView11));
-            }
-        }, 400);
 
         return layoutView;
     }

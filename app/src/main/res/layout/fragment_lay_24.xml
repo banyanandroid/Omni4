@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag24"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_11">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curcumin : Neuroprotection"
+            android:id="@+id/frag23_head"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_marginLeft="56dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="91dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView58"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/frag23_head"
+            android:layout_alignLeft="@+id/frag23_head"
+            android:layout_alignStart="@+id/frag23_head"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Promotes hippocampal neurogenesis"
+            android:id="@+id/textView75"
+            android:textSize="26sp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView58"
+            android:layout_toRightOf="@+id/imageView58"
+            android:layout_toEndOf="@+id/imageView58" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView59"
+            android:src="@drawable/bullet"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textView75"
+            android:layout_alignLeft="@+id/imageView58"
+            android:layout_alignStart="@+id/imageView58" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="“Enhances the activity of commonly used antidepressant fluoxetine,venlafaxine and bupropion and helps to minimize use of antidepressant."
+            android:id="@+id/textView76"
+            android:textSize="28sp"
+            android:layout_alignTop="@+id/imageView59"
+            android:layout_alignLeft="@+id/textView75"
+            android:layout_alignStart="@+id/textView75" />
+
+
+    </RelativeLayout>
+</FrameLayout>

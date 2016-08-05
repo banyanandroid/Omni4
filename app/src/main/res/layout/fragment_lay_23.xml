@@ -9,253 +9,110 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white">
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="vertical"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
 
-            <ImageView
-                android:id="@+id/omni_bg"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="40dp"
-                android:src="@drawable/center_2"
-                />
-
-            <ImageView
-                android:id="@+id/center_bg"
-                android:layout_width="130dp"
-                android:layout_height="50dp"
-                android:src="@drawable/omni"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_alignParentLeft="true" />
-
-            <TextView
-                android:id="@+id/strength_bg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/strength"
-                android:textColor="@color/navy"
-                android:textSize="14sp"
-                android:gravity="center"
-                android:layout_below="@+id/omni_bg"
-                android:layout_alignLeft="@+id/omni_bg"
-                android:layout_alignStart="@+id/omni_bg"
-                android:layout_alignRight="@+id/omni_bg"
-                android:layout_alignEnd="@+id/omni_bg" />
-
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="15dip"
-                android:layout_marginBottom="3dp"
-                android:layout_above="@+id/on"
-                android:background="@color/red"
-                android:id="@+id/view3" />
-            <View
-                android:id="@+id/on"
-                android:layout_width="fill_parent"
-                android:layout_height="27dip"
-                android:layout_alignParentBottom="true"
-                android:background="@color/yellow" />
-
-            <ImageView
-                android:layout_width="500dp"
-                android:layout_height="140dp"
-                android:layout_marginLeft="50dp"
-                android:id="@+id/imageView6"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="20dp"
-                android:layout_above="@+id/strength_bg"
-                android:layout_toRightOf="@+id/center_bg"
-                android:src="@drawable/img22" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="24sp"
-                android:textColor="@color/red"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:text="A novel option in Neuropsychiatric disorders"
-                android:id="@+id/textView5"
-                android:layout_alignBottom="@+id/strength_bg"
-                android:layout_toRightOf="@+id/prev"
-                android:layout_toEndOf="@+id/prev" />
-
-            <RelativeLayout
-                android:id="@+id/r_1"
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_below="@+id/textView5"
-                android:layout_alignLeft="@+id/center_bg"
-                android:layout_alignStart="@+id/center_bg">
-
-                <ImageView
-                    android:id="@+id/bullet_1"
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-                <TextView
-                    android:id="@+id/pt_1_frag11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Unique anti-depressant and neuroprotection benefit"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="24sp"
-                    android:gravity="center|left"
-                    android:layout_toRightOf="@+id/bullet_1"
-                    android:layout_alignParentBottom="true" />
-
-
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_2"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="5dp"
-                android:layout_alignLeft="@+id/r_1"
-                android:layout_alignStart="@+id/r_1"
-                android:layout_below="@+id/r_1">
-
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Inhibits MAO"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="24sp"
-                    android:gravity="center|left"
-                    android:layout_toRightOf="@+id/imageView7"
-                    android:layout_alignParentBottom="true" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_3"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="5dp"
-                android:layout_below="@+id/r_2"
-                android:layout_alignLeft="@+id/r_2"
-                android:layout_alignStart="@+id/r_2">
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Modulates the serotonin and dopamine neurotransmission"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="24sp"
-                    android:gravity="center|left"
-                    android:layout_toRightOf="@+id/imageView8"
-                    android:layout_alignParentBottom="true" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_4"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="5dp"
-                android:layout_below="@+id/r_3"
-                android:layout_centerHorizontal="true"
-                android:layout_above="@+id/prev">
-
-                <ImageView
-                    android:id="@+id/imageView9"
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="40dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Increases the levels of neurotropic factors, especially BDNF"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="20dp"
-                    android:textSize="24sp"
-                    android:gravity="center|left"
-                    android:layout_toRightOf="@+id/imageView9"
-                    android:layout_alignParentBottom="true" />
-
-
-
-            </RelativeLayout>
-
-
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/prev"
-                android:src="@drawable/prev"
-                android:layout_above="@+id/view3"
-                android:layout_alignLeft="@+id/r_3"
-                android:layout_alignStart="@+id/r_3" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/next"
-                android:layout_above="@+id/view3"
-                android:layout_alignRight="@+id/r_3"
-                android:layout_alignEnd="@+id/r_3"
-                android:src="@drawable/next" />
-
-
-        </RelativeLayout>
-
-
-
+        <include layout="@layout/back_1"></include>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="23"
-            android:layout_marginLeft="20dp"
-            android:layout_marginBottom="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Curcumin : Antidepressant"
+            android:id="@+id/frag23_head"
+            android:textSize="28sp"
             android:textStyle="bold"
-            android:id="@+id/textno"
-            android:layout_alignParentBottom="true"
+            android:textColor="@color/red"
+            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="56dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="93dp" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView58"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag23_head"
+            android:layout_alignLeft="@+id/frag23_head"
+            android:layout_alignStart="@+id/frag23_head"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="600dp"
             android:layout_height="wrap_content"
-            android:id="@+id/imageView3"
-            android:layout_alignTop="@+id/pt_last_frag11"
-            android:layout_alignRight="@+id/pt_last_frag11"
-            android:layout_alignEnd="@+id/pt_last_frag11" />
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag23pt1"
+            android:id="@+id/textView75"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/imageView58"
+            android:layout_toRightOf="@+id/imageView58"
+            android:layout_toEndOf="@+id/imageView58" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView59"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageView58"
+            android:layout_alignLeft="@+id/imageView58"
+            android:layout_alignStart="@+id/imageView58"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag23pt2"
+            android:id="@+id/textView76"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/imageView59"
+            android:layout_alignLeft="@+id/textView75"
+            android:layout_alignStart="@+id/textView75" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView60"
+            android:src="@drawable/bullet"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView76"
+            android:layout_alignLeft="@+id/imageView59"
+            android:layout_alignStart="@+id/imageView59" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag23pt3"
+            android:id="@+id/textView77"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/imageView60"
+            android:layout_alignLeft="@+id/textView76"
+            android:layout_alignStart="@+id/textView76" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView61"
+            android:src="@drawable/bullet"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView77"
+            android:layout_toLeftOf="@+id/textView75"
+            android:layout_toStartOf="@+id/textView75" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag23pt4"
+            android:id="@+id/textView78"
+            android:textSize="25sp"
+            android:layout_alignTop="@+id/imageView61"
+            android:layout_alignLeft="@+id/textView77"
+            android:layout_alignStart="@+id/textView77" />
+
 
     </RelativeLayout>
 </FrameLayout>

@@ -24,7 +24,6 @@ import java.io.IOException;
 public class Fragment_34 extends Fragment {
     int fragVal;
 
-    TextView textno, textView5;
     ImageView center_bg, omni_bg, next, prev;
     TextView strngth_bg;
     MediaPlayer player;

@@ -1,8 +1,6 @@
+
 package Fragments;
 
-import android.content.res.AssetFileDescriptor;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -11,31 +9,26 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.banyan.omni.R;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 
-import java.io.IOException;
 
-
-public class Fragment_24 extends Fragment {
+public class Fragment_last extends Fragment {
     int fragVal;
 
-    ImageView center_bg, omni_bg, next, prev;
+    ImageView center_bg, omni_bg;
     TextView strngth_bg;
-    MediaPlayer player;
-    AssetFileDescriptor afd;
 
-    public static Fragment_24 init(int val) {
-        Fragment_24 frag_24 = new Fragment_24();
+    public static Fragment_last init(int val) {
+        Fragment_last Fragment_last = new Fragment_last();
         // Supply val input as an argument.
         Bundle args = new Bundle();
         args.putInt("val", val);
-        frag_24.setArguments(args);
-        return frag_24;
+        Fragment_last.setArguments(args);
+        return Fragment_last;
     }
 
     @Override
@@ -47,55 +40,42 @@ public class Fragment_24 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View layoutView = inflater.inflate(R.layout.fragment_lay_24, container,
+        final View layoutView = inflater.inflate(R.layout.fragment_lay_last, container,
                 false);
-
 
 
         omni_bg = (ImageView) layoutView.findViewById(R.id.omni_bg);
         center_bg = (ImageView) layoutView.findViewById(R.id.center_bg);
         strngth_bg = (TextView) layoutView.findViewById(R.id.strength_bg);
-        next = (ImageView) layoutView.findViewById(R.id.next);
-        prev = (ImageView) layoutView.findViewById(R.id.prev);
+        ImageView next = (ImageView) layoutView.findViewById(R.id.next);
+        next.setVisibility(View.GONE);
+        ImageView prev = (ImageView) layoutView.findViewById(R.id.prev);
 
-        YoYo.with(Techniques.Shake)
-                .duration(500)
+        YoYo.with(Techniques.ZoomIn)
+                .duration(400)
                 .playOn(layoutView.findViewById(R.id.omni_bg));
-        YoYo.with(Techniques.Flash)
+        YoYo.with(Techniques.ZoomIn)
                 .duration(500)
                 .playOn(layoutView.findViewById(R.id.center_bg));
-        YoYo.with(Techniques.Shake)
+        YoYo.with(Techniques.ZoomIn)
                 .duration(500)
                 .playOn(layoutView.findViewById(R.id.strength_bg));
 
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-
-                Fragment_25 fragment_25 = new Fragment_25();
-                FragmentManager fragmentManager = getFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frag24, fragment_25);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-
-            }
-        });
         prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
-                Fragment_23 fragment_23 = new Fragment_23();
+                Fragment_43 fragment_43 = new Fragment_43();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.frag24, fragment_23);
+                fragmentTransaction.replace(R.id.frag43, fragment_43);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
-
             }
         });
+
 
         return layoutView;
     }

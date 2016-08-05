@@ -23,7 +23,7 @@ import java.io.IOException;
 
 public class Fragment_23 extends Fragment {
     int fragVal;
-    RelativeLayout r1, r2, r3, r4;
+
     ImageView center_bg, omni_bg, next, prev;
     TextView strngth_bg;
     MediaPlayer player;
@@ -50,10 +50,7 @@ public class Fragment_23 extends Fragment {
         final View layoutView = inflater.inflate(R.layout.fragment_lay_23, container,
                 false);
 
-        r1 = (RelativeLayout) layoutView.findViewById(R.id.r_1);
-        r2 = (RelativeLayout) layoutView.findViewById(R.id.r_2);
-        r3 = (RelativeLayout) layoutView.findViewById(R.id.r_3);
-        r4 = (RelativeLayout) layoutView.findViewById(R.id.r_4);
+
 
         omni_bg = (ImageView) layoutView.findViewById(R.id.omni_bg);
         center_bg = (ImageView) layoutView.findViewById(R.id.center_bg);
@@ -100,44 +97,7 @@ public class Fragment_23 extends Fragment {
             }
         });
 
-        r1.setVisibility(View.GONE);
-        r2.setVisibility(View.GONE);
-        r3.setVisibility(View.GONE);
-        r4.setVisibility(View.GONE);
 
-
-        r1.postDelayed(new Runnable() {
-            public void run() {
-                r1.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_1));
-            }
-        }, 100);
-        r2.postDelayed(new Runnable() {
-            public void run() {
-                r2.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_2));
-            }
-        }, 200);
-        r3.postDelayed(new Runnable() {
-            public void run() {
-                r3.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_3));
-            }
-        }, 300);
-        r4.postDelayed(new Runnable() {
-            public void run() {
-                r4.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(300)
-                        .playOn(layoutView.findViewById(R.id.r_4));
-            }
-        }, 400);
 
         return layoutView;
     }

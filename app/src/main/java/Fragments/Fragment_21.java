@@ -64,11 +64,6 @@ public class Fragment_21 extends Fragment {
                 .duration(500)
                 .playOn(layoutView.findViewById(R.id.one_frag2));
 
-        head.setText("The Natural Bioprotectant\n" +
-                "that regulates chronic inflammation\n" +
-                "and has Anti-Depressant action");
-
-
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

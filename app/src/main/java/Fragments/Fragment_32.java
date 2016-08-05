@@ -59,7 +59,7 @@ public class Fragment_32 extends Fragment {
         head = (TextView) layoutView.findViewById(R.id.head_frag2);
         textno = (TextView) layoutView.findViewById(R.id.textno);
         textno.setText("32");
-        head.setText("The natural bioprotectant that regulates chronic inflammation with Anti-diabetic benefits");
+        head.setText("The Natural Bioprotectant that regulates chronic inflammation and has Anti-Depressant action");
         next = (ImageView) layoutView.findViewById(R.id.next);
         prev = (ImageView) layoutView.findViewById(R.id.prev);
 

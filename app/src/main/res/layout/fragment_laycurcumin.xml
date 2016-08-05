@@ -56,15 +56,15 @@
             android:layout_toEndOf="@+id/textno" />
 
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="150dp"
             android:layout_height="60dp"
             android:id="@+id/imageView42"
-            android:layout_marginRight="5dp"
+            android:layout_marginRight="15dp"
             android:src="@drawable/ultra_logo"
             android:layout_above="@+id/textno"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginBottom="53dp" />
+            android:layout_marginBottom="63dp" />
 
 
     </RelativeLayout>

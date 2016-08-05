@@ -22,7 +22,7 @@
             android:layout_toEndOf="@+id/textno"
             android:layout_toRightOf="@+id/textno"
             android:gravity="left"
-            android:text="@string/novel"
+            android:text="A novel ADD ON treatment with CT/RT/Surgery "
             android:textColor="@color/red"
             android:textSize="24sp"
             android:textStyle="bold" />

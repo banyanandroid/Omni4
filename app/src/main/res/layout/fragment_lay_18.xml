@@ -11,230 +11,119 @@
         android:layout_height="match_parent"
         android:background="@color/white">
 
-        <RelativeLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView3"
-            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/omni_bg"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="40dp"
-                android:src="@drawable/center_2" />
-
-            <ImageView
-                android:id="@+id/center_bg"
-                android:layout_width="200dp"
-                android:layout_height="70dp"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/omni" />
-
-            <TextView
-                android:id="@+id/strength_bg"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_alignLeft="@+id/omni_bg"
-                android:layout_alignStart="@+id/omni_bg"
-                android:layout_below="@+id/omni_bg"
-                android:text="@string/strength"
-                android:textColor="@color/navy"
-                android:textSize="14sp"
-                android:layout_alignRight="@+id/omni_bg"
-                android:layout_alignEnd="@+id/omni_bg" />
-
-            <View
-                android:id="@+id/view3"
-                android:layout_width="fill_parent"
-                android:layout_height="15dip"
-                android:layout_above="@+id/on"
-                android:background="@color/red" />
-
-            <View
-                android:id="@+id/on"
-                android:layout_width="fill_parent"
-                android:layout_height="27dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginTop="3dp"
-                android:background="@color/yellow" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="500dp"
-                android:layout_height="140dp"
-                android:layout_above="@+id/strength_bg"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="50dp"
-                android:layout_marginTop="10dp"
-                android:layout_toRightOf="@+id/center_bg"
-                android:scaleType="matrix"
-                android:src="@drawable/img_18" />
-
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/strength_bg"
-                android:layout_alignLeft="@+id/r_1"
-                android:layout_alignStart="@+id/r_1"
-                android:layout_toLeftOf="@+id/omni_bg"
-                android:gravity="center"
-                android:text="A novel option for maintenance/prevention in IBD"
-                android:textColor="@color/red"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <RelativeLayout
-                android:id="@+id/r_1"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_alignLeft="@+id/center_bg"
-                android:layout_alignStart="@+id/center_bg"
-                android:layout_below="@+id/textView5"
-                android:layout_marginTop="5dp">
-
-                <ImageView
-                    android:id="@+id/bullet_1"
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/pt_1_frag11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/bullet_1"
-                    android:gravity="center|left"
-                    android:text="Steroid – sparing induction agent in mild to moderate colitis"
-                    android:textColor="@color/black"
-                    android:textSize="22sp" />
-
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_2"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_alignLeft="@+id/r_1"
-                android:layout_alignStart="@+id/r_1"
-                android:layout_below="@+id/r_1"
-                android:layout_marginTop="5dp">
-
-                <ImageView
-                    android:id="@+id/imageView7"
-                    android:layout_width="60dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/imageView7"
-                    android:gravity="center|left"
-                    android:text="Maintenance of remission"
-                    android:textColor="@color/black"
-                    android:textSize="22sp" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:id="@+id/r_3"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_alignLeft="@+id/r_2"
-                android:layout_alignStart="@+id/r_2"
-                android:layout_below="@+id/r_2"
-                android:layout_marginTop="5dp">
-
-                <ImageView
-                    android:id="@+id/imageView8"
-                    android:layout_width="60dp"
-                    android:layout_height="35dp"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/bullet" />
-
-                <TextView
-                    android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="20dp"
-                    android:layout_toRightOf="@+id/imageView8"
-                    android:text="Preventing IBD to intestinal cancer, pyoderma gangrenosum, and primary sclerosing Cholangitis due to its potent anti-cancer action."
-                    android:textColor="@color/black"
-                    android:textSize="22sp" />
-
-
-            </RelativeLayout>
-
-            <ImageView
-                android:id="@+id/prev"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/view3"
-                android:layout_alignLeft="@+id/r_3"
-                android:layout_alignStart="@+id/r_3"
-                android:src="@drawable/prev" />
-
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/view3"
-                android:layout_alignLeft="@+id/imageView6"
-                android:layout_alignStart="@+id/imageView6"
-                android:layout_marginTop="10dp"
-                android:text="Dosage : 2 Tablets daily or as directed by Physician."
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textColor="#ff0000" />
-
-            <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="280dp"
-                android:layout_height="40dp"
-                android:layout_below="@+id/r_3"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/clinical_16" />
-
-        </RelativeLayout>
-
-
-        <TextView
-            android:id="@+id/textno"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"
-            android:text="18"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/pt_last_frag11"
-            android:layout_alignRight="@+id/pt_last_frag11"
-            android:layout_alignTop="@+id/pt_last_frag11" />
+            android:id="@+id/frag18_img"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A novel option for maintenance/prevention in IBD"
+            android:id="@+id/frag18_head_txt"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_below="@+id/frag18_img"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/frag18_bul_1"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag18_head_txt"
+            android:layout_alignLeft="@+id/frag18_head_txt"
+            android:layout_alignStart="@+id/frag18_head_txt"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Steroid – sparing induction agent in mild to moderate colitis"
+            android:id="@+id/frag18_pt1"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/frag18_bul_1"
+            android:layout_toRightOf="@+id/frag18_bul_1"
+            android:layout_toEndOf="@+id/frag18_bul_1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView53"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag18_bul_1"
+            android:layout_alignLeft="@+id/frag18_bul_1"
+            android:layout_alignStart="@+id/frag18_bul_1"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Maintenance of remission"
+            android:id="@+id/textView2"
+            android:layout_alignTop="@+id/imageView53"
+            android:layout_alignLeft="@+id/frag18_pt1"
+            android:layout_alignStart="@+id/frag18_pt1" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView54"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/imageView53"
+            android:layout_alignStart="@+id/imageView53"
+            android:src="@drawable/bullet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Preventing IBD to intestinal cancer, pyoderma gangrenosum, and primary sclerosing \nCholangitis due to its potent anti-cancer action."
+            android:id="@+id/textView69"
+            android:layout_alignTop="@+id/imageView54"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignRight="@+id/frag18_pt1"
+            android:layout_alignEnd="@+id/frag18_pt1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView55"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/bottel_img"
+            android:layout_alignTop="@+id/textView69"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dosage : 1-2 Tablets daily"
+            android:id="@+id/textView70"
+            android:textColor="#ff0000"
+            android:layout_alignBottom="@+id/imageView55"
+            android:layout_alignRight="@+id/textView69"
+            android:layout_alignEnd="@+id/textView69"
+            android:layout_marginBottom="45dp" />
+
+        <include layout="@layout/back_1"></include>
+
 
     </RelativeLayout>
 </FrameLayout>

@@ -112,10 +112,10 @@ public class Fragment_14 extends Fragment {
             public void onClick(View v) {
 
 
-                Fragment_1 fragment_1 = new Fragment_1();
+                Fragment_13 fragment_13 = new Fragment_13();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.con, fragment_1);
+                fragmentTransaction.replace(R.id.con, fragment_13);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 

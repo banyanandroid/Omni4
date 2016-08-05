@@ -22,8 +22,8 @@ import java.io.IOException;
 
 public class Fragment_4040 extends Fragment {
     int fragVal;
-    RelativeLayout r1, r2, r3, r4;
-    ImageView center_bg, omni_bg, arrow_2, arrow_3, arrow_4, next, prev;
+
+    ImageView center_bg, omni_bg, arrow_1, arrow_2, arrow_3, next, prev;
     TextView strngth_bg, textView15;
     MediaPlayer player;
     AssetFileDescriptor afd;
@@ -49,23 +49,15 @@ public class Fragment_4040 extends Fragment {
         final View layoutView = inflater.inflate(R.layout.fragment_lay_40, container,
                 false);
 
-        r1 = (RelativeLayout) layoutView.findViewById(R.id.r_1);
-        r2 = (RelativeLayout) layoutView.findViewById(R.id.r_2);
-        r3 = (RelativeLayout) layoutView.findViewById(R.id.r_3);
-        r4 = (RelativeLayout) layoutView.findViewById(R.id.r_4);
+        arrow_1 = (ImageView) layoutView.findViewById(R.id.frag40_img1);
+        arrow_2 = (ImageView) layoutView.findViewById(R.id.frag40_img2);
+        arrow_3 = (ImageView) layoutView.findViewById(R.id.frag40_img3);
 
-        arrow_2 = (ImageView) layoutView.findViewById(R.id.arrow_2);
-        arrow_3 = (ImageView) layoutView.findViewById(R.id.arrow_3);
-        arrow_4 = (ImageView) layoutView.findViewById(R.id.arrow_4);
-        r2.setVisibility(View.GONE);
-        r3.setVisibility(View.GONE);
-        r4.setVisibility(View.GONE);
-        arrow_2.setOnClickListener(new View.OnClickListener() {
+        arrow_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 //player.pause();
-
                 Fragment_41 fragment_41 = new Fragment_41();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -74,7 +66,7 @@ public class Fragment_4040 extends Fragment {
                 fragmentTransaction.commit();
             }
         });
-        arrow_3.setOnClickListener(new View.OnClickListener() {
+        arrow_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -89,7 +81,7 @@ public class Fragment_4040 extends Fragment {
 
             }
         });
-        arrow_4.setOnClickListener(new View.OnClickListener() {
+        arrow_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -109,7 +101,8 @@ public class Fragment_4040 extends Fragment {
         strngth_bg = (TextView) layoutView.findViewById(R.id.strength_bg);
         textView15 = (TextView) layoutView.findViewById(R.id.textView15);
         next = (ImageView) layoutView.findViewById(R.id.next);
-        //prev = (ImageView) layoutView.findViewById(R.id.prev);
+        prev = (ImageView) layoutView.findViewById(R.id.prev);
+        prev.setVisibility(View.INVISIBLE);
 
         YoYo.with(Techniques.ZoomIn)
                 .duration(500)
@@ -126,65 +119,16 @@ public class Fragment_4040 extends Fragment {
             @Override
             public void onClick(View v) {
 
-                //player.pause();
-
-                Fragment_41 fragment_41 = new Fragment_41();
+                Fragment_4040_1 fragment_40 = new Fragment_4040_1();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.conk, fragment_41);
+                fragmentTransaction.replace(R.id.conk, fragment_40);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 
             }
         });
 
-        r1.setVisibility(View.GONE);
-
-        textView15.setVisibility(View.GONE);
-
-
-        r1.postDelayed(new Runnable() {
-            public void run() {
-                r1.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(1000)
-                        .playOn(layoutView.findViewById(R.id.r_1));
-            }
-        }, 100);
-        r2.postDelayed(new Runnable() {
-            public void run() {
-                r2.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(500)
-                        .playOn(layoutView.findViewById(R.id.r_2));
-            }
-        }, 200);
-        r3.postDelayed(new Runnable() {
-            public void run() {
-                r3.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(500)
-                        .playOn(layoutView.findViewById(R.id.r_3));
-            }
-        }, 300);
-        r4.postDelayed(new Runnable() {
-            public void run() {
-                r4.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(500)
-                        .playOn(layoutView.findViewById(R.id.r_4));
-            }
-        }, 400);
-
-
-        textView15.postDelayed(new Runnable() {
-            public void run() {
-                textView15.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(1000)
-                        .playOn(layoutView.findViewById(R.id.textView15));
-            }
-        }, 500);
 
 
         return layoutView;

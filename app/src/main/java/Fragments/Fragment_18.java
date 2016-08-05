@@ -23,7 +23,7 @@ import java.io.IOException;
 
 public class Fragment_18 extends Fragment {
     int fragVal;
-    RelativeLayout r1, r2, r3;
+
     ImageView center_bg, omni_bg;
     TextView strngth_bg;
     MediaPlayer player;
@@ -50,9 +50,7 @@ public class Fragment_18 extends Fragment {
         final View layoutView = inflater.inflate(R.layout.fragment_lay_18, container,
                 false);
 
-        r1 = (RelativeLayout) layoutView.findViewById(R.id.r_1);
-        r2 = (RelativeLayout) layoutView.findViewById(R.id.r_2);
-        r3 = (RelativeLayout) layoutView.findViewById(R.id.r_3);
+
 
         omni_bg = (ImageView) layoutView.findViewById(R.id.omni_bg);
         center_bg = (ImageView) layoutView.findViewById(R.id.center_bg);
@@ -98,35 +96,7 @@ public class Fragment_18 extends Fragment {
             }
         });
 
-        r1.setVisibility(View.GONE);
-        r2.setVisibility(View.GONE);
-        r3.setVisibility(View.GONE);
 
-
-        r1.postDelayed(new Runnable() {
-            public void run() {
-                r1.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(500)
-                        .playOn(layoutView.findViewById(R.id.r_1));
-            }
-        }, 100);
-        r2.postDelayed(new Runnable() {
-            public void run() {
-                r2.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInRight)
-                        .duration(500)
-                        .playOn(layoutView.findViewById(R.id.r_2));
-            }
-        }, 200);
-        r3.postDelayed(new Runnable() {
-            public void run() {
-                r3.setVisibility(View.VISIBLE);
-                YoYo.with(Techniques.SlideInLeft)
-                        .duration(500)
-                        .playOn(layoutView.findViewById(R.id.r_3));
-            }
-        }, 300);
 
         return layoutView;
     }

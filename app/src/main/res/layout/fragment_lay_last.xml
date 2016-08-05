@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag43"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.Fragment_11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include layout="@layout/back_1"></include>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Control diabetes and reduce complications"
+            android:id="@+id/textView19"
+            android:textSize="26sp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="80dp" />
+
+        <ImageView
+            android:layout_width="15sp"
+            android:layout_height="20sp"
+            android:id="@+id/imageView66"
+            android:layout_marginTop="20dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/textView19"
+            android:layout_alignLeft="@+id/textView19"
+            android:layout_alignStart="@+id/textView19"
+            android:src="#f17f7f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Delays early diabetes progressing to Type 2 Diabetes"
+            android:id="@+id/textView79"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="180dp"
+            android:layout_alignTop="@+id/imageView66"
+            android:layout_toRightOf="@+id/imageView66"
+            android:layout_toEndOf="@+id/imageView66" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView67"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/textView79"
+            android:layout_alignLeft="@+id/textView79"
+            android:layout_alignStart="@+id/textView79"
+            android:src="#fdec04" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lowers HbA1c, fasting and postprandial glucose levels and C-peptide"
+            android:id="@+id/textView80"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="18dp"
+            android:layout_alignTop="@+id/imageView67"
+            android:layout_toRightOf="@+id/imageView67" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView68"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/textView80"
+            android:layout_alignLeft="@+id/imageView67"
+            android:layout_alignStart="@+id/imageView67"
+            android:src="#fdec04" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Modulates PPAR gamma for better sugar uptake and utilization"
+            android:id="@+id/textView81"
+            android:layout_alignTop="@+id/imageView68"
+            android:layout_alignLeft="@+id/textView80"
+            android:layout_alignStart="@+id/textView80" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:id="@+id/imageView69"
+            android:layout_below="@+id/textView81"
+            android:layout_alignLeft="@+id/imageView68"
+            android:layout_alignStart="@+id/imageView68"
+            android:src="#fdec04" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Improves lipid profile by increasing HDL levels"
+            android:id="@+id/textView82"
+            android:layout_alignTop="@+id/imageView69"
+            android:layout_alignLeft="@+id/textView81"
+            android:layout_alignStart="@+id/textView81" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/imageView70"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/textView82"
+            android:layout_alignLeft="@+id/imageView66"
+            android:layout_alignStart="@+id/imageView66"
+            android:layout_marginTop="15dp"
+            android:src="#f17f7f" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Helps protects from micro and macro vascular complications"
+            android:id="@+id/textView85"
+            android:layout_alignTop="@+id/imageView70"
+            android:layout_alignLeft="@+id/imageView69"
+            android:layout_alignStart="@+id/imageView69" />
+
+
+    </RelativeLayout>
+</FrameLayout>

@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:background="@color/white">
 
-        <include layout="@layout/back_1"></include>
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
             android:src="@drawable/bullet" />
 
         <TextView
-            android:layout_width="680dp"
+            android:layout_width="620dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Solo or in combination with standard antidepressants at a lower dose"
@@ -52,11 +52,10 @@
             android:layout_width="50dp"
             android:layout_height="30dp"
             android:id="@+id/imageView50"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/imageView49"
+            android:src="@drawable/bullet"
+            android:layout_below="@+id/textView64"
             android:layout_alignLeft="@+id/imageView49"
-            android:layout_alignStart="@+id/imageView49"
-            android:src="@drawable/bullet" />
+            android:layout_alignStart="@+id/imageView49" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -69,7 +68,7 @@
             android:layout_alignStart="@+id/textView64" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="600dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Tackle residual symptoms –cognitive dysfunction &amp; pyschological impairment"
@@ -81,28 +80,29 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="300dp"
             android:id="@+id/imageView51"
-            android:layout_marginTop="10dp"
-            android:layout_alignRight="@+id/textView64"
-            android:layout_alignEnd="@+id/textView64"
+            android:layout_marginRight="40dp"
             android:src="@drawable/bottel_img"
-            android:layout_below="@+id/textView66"
-            android:layout_alignParentBottom="true" />
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Dosage : 2 Tablets daily or as directed by Physician."
+            android:text="Dosage : 1 - 2 Tablets daily"
             android:id="@+id/textView67"
             android:textColor="#ff0000"
-            android:layout_marginBottom="41dp"
-            android:layout_alignBottom="@+id/imageView51"
-            android:layout_alignLeft="@+id/textView66"
-            android:layout_alignStart="@+id/textView66"
-            android:layout_marginLeft="37dp"
-            android:layout_marginStart="37dp" />
+            android:layout_marginBottom="67dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageView51"
+            android:layout_toStartOf="@+id/imageView51" />
+
+
+
+        <include layout="@layout/back_1"></include>
 
         <TextView
             android:layout_width="wrap_content"

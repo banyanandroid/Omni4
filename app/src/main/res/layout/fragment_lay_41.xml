@@ -13,219 +13,137 @@
 
         <include layout="@layout/back_1"></include>
 
-        <TextView
-            android:id="@+id/head_frag11"
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+            android:id="@+id/imageView63"
+            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="64dp"
+            android:src="@drawable/frag40_img1"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="67dp"
-            android:gravity="center"
-            android:text="Pre-Diabetic"
-            android:textColor="@color/red"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <RelativeLayout
-            android:id="@+id/r_1"
-            android:layout_marginLeft="40dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/textView19"
-            android:layout_marginTop="45dp">
-
-            <ImageView
-                android:id="@+id/bullet_1"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/bullet" />
-
-            <TextView
-                android:id="@+id/pt_1_frag11"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignBottom="@+id/bullet_1"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/bullet_1"
-                android:gravity="center"
-                android:text="Intervention significantly reduced T2D development"
-                android:textColor="@color/black"
-                android:textSize="28sp" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/r_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/r_1"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp">
-
-            <ImageView
-                android:id="@+id/bullet_2"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/bullet" />
-
-            <TextView
-                android:id="@+id/pt_2_frag11"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignBottom="@+id/bullet_2"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/bullet_2"
-                android:text="Lowers HbA1c, fasting &amp; post-prandial glucose levels and C- peptide"
-                android:textColor="@color/black"
-                android:textSize="28sp" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/r_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/r_2"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp">
-
-            <ImageView
-                android:id="@+id/bullet_3"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/bullet" />
-
-            <TextView
-                android:id="@+id/pt_3_frag11"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignBottom="@+id/bullet_3"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/bullet_3"
-                android:gravity="center"
-                android:text="Increased islet viability and delayed islet ROS production"
-                android:textColor="@color/black"
-                android:textSize="28sp" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/r_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/r_3"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp">
-
-            <ImageView
-                android:id="@+id/bullet_4"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/bullet" />
-
-            <TextView
-                android:id="@+id/pt_4_frag11"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignBottom="@+id/bullet_4"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/bullet_4"
-                android:gravity="center"
-                android:text="Prevents adipogenesis"
-                android:textColor="@color/black"
-                android:textSize="28sp" />
-
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/r_5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/r_4"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp">
-
-            <ImageView
-                android:id="@+id/bullet_5"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/bullet" />
-
-            <TextView
-                android:id="@+id/pt_5_frag11"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_alignBottom="@+id/bullet_5"
-                android:layout_marginLeft="20dp"
-                android:layout_toRightOf="@+id/bullet_5"
-                android:gravity="center"
-                android:text="Prevents progression to T2D"
-                android:textColor="@color/black"
-                android:textSize="28sp" />
-
-
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/textno"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="20dp"
-            android:text="41"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold" />
+            android:layout_alignParentStart="true" />
 
         <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/r_5" />
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/frag41_bul1"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/imageView63"
+            android:layout_alignLeft="@+id/imageView63"
+            android:layout_alignStart="@+id/imageView63"
+            android:layout_marginTop="14dp"
+            android:src="#f58634" />
 
         <TextView
-            android:id="@+id/textView19"
-            android:layout_width="wrap_content"
+            android:layout_width="700dp"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/head_frag11"
-            android:layout_marginLeft="64dp"
-            android:layout_marginStart="64dp"
-            android:layout_toEndOf="@+id/textno"
-            android:layout_toRightOf="@+id/textno"
-            android:text="Protects from"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            android:visibility="gone" />
+            android:text="@string/frag41pt1"
+            android:id="@+id/frag41pt1"
+            android:layout_marginLeft="10dp"
+            android:layout_alignTop="@+id/frag41_bul1"
+            android:layout_toRightOf="@+id/frag41_bul1"
+            android:layout_toEndOf="@+id/frag41_bul1" />
 
         <ImageView
-            android:id="@+id/back"
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/frag41_bul2"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/frag41pt1"
+            android:layout_alignLeft="@+id/frag41_bul1"
+            android:layout_alignStart="@+id/frag41_bul1"
+            android:src="#f58634" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag41pt2"
+            android:id="@+id/frag41pt2"
+            android:layout_alignTop="@+id/frag41_bul2"
+            android:layout_alignLeft="@+id/frag41pt1"
+            android:layout_alignStart="@+id/frag41pt1"
+            android:layout_alignRight="@+id/frag41pt1"
+            android:layout_alignEnd="@+id/frag41pt1" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:id="@+id/frag41_bul3"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/frag41pt2"
+            android:layout_alignLeft="@+id/frag41_bul2"
+            android:layout_alignStart="@+id/frag41_bul2"
+            android:src="#f58634" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag41pt3"
+            android:id="@+id/frag41pt3"
+            android:layout_alignTop="@+id/frag41_bul3"
+            android:layout_alignLeft="@+id/frag41pt2"
+            android:layout_alignStart="@+id/frag41pt2" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="5dp"
+            android:id="@+id/frag41_bul4"
+            android:layout_below="@+id/frag41pt3"
+            android:layout_alignLeft="@+id/frag41_bul3"
+            android:layout_alignStart="@+id/frag41_bul3"
+            android:src="#f58634" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag41pt4"
+            android:id="@+id/frag41pt4"
+            android:layout_alignTop="@+id/frag41_bul4"
+            android:layout_alignLeft="@+id/frag41pt3"
+            android:layout_alignStart="@+id/frag41pt3" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="20sp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frag41_bul5"
+            android:layout_below="@+id/frag41pt4"
+            android:layout_alignLeft="@+id/frag41_bul4"
+            android:layout_alignStart="@+id/frag41_bul4"
+            android:src="#f58634" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/frag41pt5"
+            android:id="@+id/frag41pt5"
+            android:layout_alignTop="@+id/frag41_bul5"
+            android:layout_alignLeft="@+id/frag41pt4"
+            android:layout_alignStart="@+id/frag41pt4" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
             android:rotation="180"
-            android:src="@drawable/arw"
-            android:layout_alignTop="@+id/r_4"
-            android:layout_alignLeft="@+id/textno"
-            android:layout_alignStart="@+id/textno" />
+            android:layout_below="@+id/frag41pt5"
+            android:layout_alignLeft="@+id/frag41_bul5"
+            android:layout_alignStart="@+id/frag41_bul5"
+            android:layout_marginTop="49dp"
+            android:src="@drawable/arw" />
+
 
     </RelativeLayout>
 </FrameLayout>

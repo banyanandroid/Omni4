@@ -18,12 +18,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="A novel adjuvant option- Post CT/RT/Surgery"
+            android:text="A novel ADD ON treatment with CT/RT/Surgery "
             android:id="@+id/textView20"
             android:textSize="28sp"
             android:textColor="@color/red"
             android:textStyle="bold"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             android:layout_alignParentTop="true"
             android:layout_toLeftOf="@+id/arrow_1"
             android:layout_toStartOf="@+id/arrow_1" />
@@ -32,7 +32,7 @@
             android:layout_width="40dp"
             android:layout_height="30dp"
             android:id="@+id/frag5_bull1"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:layout_below="@+id/textView20"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -233,35 +233,6 @@
             android:layout_alignLeft="@+id/arrow_3"
             android:layout_alignStart="@+id/arrow_3" />
 
-        <ImageView
-            android:layout_width="40dp"
-            android:layout_height="30dp"
-            android:id="@+id/frag5_bull5"
-            android:layout_marginTop="15dp"
-            android:layout_below="@+id/frag5_bull4"
-            android:layout_alignLeft="@+id/frag5_bull4"
-            android:layout_alignStart="@+id/frag5_bull4"
-            android:src="@drawable/bullet" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Modulates miRNA and EMT to inhibit metastasis/invasion"
-            android:id="@+id/frag5_pt5"
-            android:layout_alignTop="@+id/frag5_bull5"
-            android:layout_alignLeft="@+id/frag5_pt4"
-            android:layout_alignStart="@+id/frag5_pt4" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/arrow_5"
-            android:layout_alignTop="@+id/frag5_pt5"
-            android:layout_alignLeft="@+id/arrow_4"
-            android:layout_alignStart="@+id/arrow_4"
-            android:src="@drawable/arw" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -271,8 +242,20 @@
             android:layout_marginBottom="10dp"
             android:id="@+id/textView47"
             android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/frag5_bull5"
-            android:layout_alignStart="@+id/frag5_bull5" />
+            android:layout_alignLeft="@+id/frag5_bull4"
+            android:layout_alignStart="@+id/frag5_bull4" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/ultra_img"
+            android:visibility="invisible"
+            android:layout_marginBottom="75dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ultra_logo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
 
     </RelativeLayout>

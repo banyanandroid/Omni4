@@ -23,20 +23,21 @@ import com.daimajia.androidanimations.library.YoYo;
 import java.io.IOException;
 
 
-public class Fragment_27 extends Fragment {
+public class Fragment_4040_1 extends Fragment {
     int fragVal;
     private ImageView logo, next, prev;
     private TextView head, textno;
+
     MediaPlayer player;
     AssetFileDescriptor afd;
 
-    public static Fragment_27 init(int val) {
-        Fragment_27 frag_27 = new Fragment_27();
+    public static Fragment_4040_1 init(int val) {
+        Fragment_4040_1 fragment_4040_1 = new Fragment_4040_1();
         // Supply val input as an argument.
         Bundle args = new Bundle();
         args.putInt("val", val);
-        frag_27.setArguments(args);
-        return frag_27;
+        fragment_4040_1.setArguments(args);
+        return fragment_4040_1;
     }
 
     View layoutView;
@@ -52,44 +53,38 @@ public class Fragment_27 extends Fragment {
                              Bundle savedInstanceState) {
         layoutView = inflater.inflate(R.layout.fragment_lay_14, container,
                 false);
-        textno = (TextView) layoutView.findViewById(R.id.textno);
-        textno.setText("27");
 
         logo = (ImageView) layoutView.findViewById(R.id.one_frag2);
         head = (TextView) layoutView.findViewById(R.id.head_frag2);
-        head.setText("The novel bioprotectant with Anti-Alzheimer, Anti-inflammatory and Antidepressant benefits");
+        textno = (TextView) layoutView.findViewById(R.id.textno);
+        textno.setText("40");
+        head.setText("A novel option Control diabetes at multiple ways and at every stage");
         next = (ImageView) layoutView.findViewById(R.id.next);
         prev = (ImageView) layoutView.findViewById(R.id.prev);
 
-        ImageView one_frag2 = (ImageView) layoutView.findViewById(R.id.one_frag2);
-        YoYo.with(Techniques.ZoomIn)
-                .duration(500)
-                .playOn(layoutView.findViewById(R.id.one_frag2));
-
-
-        next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-
-                Fragment_28 fragment_28 = new Fragment_28();
-                FragmentManager fragmentManager = getFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.con, fragment_28);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-
-            }
-        });
         prev.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
 
-                Fragment_26 fragment_26 = new Fragment_26();
+                Fragment_4040 fragment_4040 = new Fragment_4040();
                 FragmentManager fragmentManager = getFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.con, fragment_26);
+                fragmentTransaction.replace(R.id.con, fragment_4040);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+
+            }
+        });
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Fragment_41 fragment_41 = new Fragment_41();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.con, fragment_41);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
 
@@ -98,14 +93,14 @@ public class Fragment_27 extends Fragment {
 
 
         YoYo.with(Techniques.ZoomIn)
-                .duration(500)
+                .duration(300)
                 .playOn(layoutView.findViewById(R.id.head_frag2));
 
         YoYo.with(Techniques.ZoomIn)
-                .duration(500)
+                .duration(300)
                 .playOn(layoutView.findViewById(R.id.one_frag2));
         YoYo.with(Techniques.ZoomIn)
-                .duration(500)
+                .duration(300)
                 .playOn(layoutView.findViewById(R.id.one_frag2));
 
 

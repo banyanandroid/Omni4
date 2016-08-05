@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:background="@color/white">
 
-        <include layout="@layout/back_1"></include>
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
             android:layout_width="40dp"
             android:layout_height="28dp"
             android:id="@+id/imageView5"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_below="@+id/frag16_head"
             android:layout_alignLeft="@+id/frag16_head"
             android:layout_alignStart="@+id/frag16_head"
@@ -45,7 +45,6 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Maintain remission"
             android:id="@+id/frag16_pt1"
-            android:textStyle="bold"
             android:textSize="25sp"
             android:textColor="@color/black"
             android:layout_marginLeft="10dp"
@@ -57,7 +56,7 @@
             android:layout_width="40dp"
             android:layout_height="28dp"
             android:id="@+id/imageView10"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_below="@+id/imageView5"
             android:layout_alignLeft="@+id/imageView5"
             android:layout_alignStart="@+id/imageView5"
@@ -71,7 +70,6 @@
             android:id="@+id/frag16_pt2"
             android:textSize="25sp"
             android:textColor="@color/black"
-            android:textStyle="bold"
             android:layout_alignTop="@+id/imageView10"
             android:layout_alignLeft="@+id/frag16_pt1"
             android:layout_alignStart="@+id/frag16_pt1" />
@@ -82,7 +80,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="With Curcumin \nPrevent IBS from getting aggravated and leading to chronic IBD"
             android:id="@+id/textView10"
-            android:textStyle="bold"
+            android:layout_marginTop="15dp"
             android:layout_marginRight="350dp"
             android:layout_below="@+id/frag16_pt2"
             android:layout_toRightOf="@+id/imageView10"
@@ -92,13 +90,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Dosage : 2 Tablets daily or as directed by Physician."
+            android:text="Dosage : 1-2 tablets Daily"
             android:id="@+id/textView52"
             android:textColor="#ff0000"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="55dp"
             android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/textView10"
-            android:layout_alignStart="@+id/textView10" />
+            android:layout_toRightOf="@+id/frag16_head"
+            android:layout_toEndOf="@+id/frag16_head" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -118,10 +116,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/imageView30"
             android:src="@drawable/clinical_16"
+            android:layout_marginBottom="40dp"
             android:layout_above="@+id/textView52"
-            android:layout_alignRight="@+id/frag16_pt2"
-            android:layout_alignEnd="@+id/frag16_pt2"
-            android:layout_marginBottom="32dp" />
+            android:layout_alignLeft="@+id/frag16_pt2"
+            android:layout_alignStart="@+id/frag16_pt2" />
+
+        <include layout="@layout/back_1"></include>
 
     </RelativeLayout>
 </FrameLayout>
